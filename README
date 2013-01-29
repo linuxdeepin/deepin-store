@@ -2,8 +2,8 @@ Install depend:
     sudo aptitude install python-xappy deepin-storm xdelta3
 
 Install:
-    python ./pkg_manager/apt/install.sh
-    python ./update_data/apt/install.sh
+    sh ./pkg_manager/apt/install.sh
+    sh ./update_data/apt/install.sh
     python ./update_data/apt/main.py
 
 Play:
