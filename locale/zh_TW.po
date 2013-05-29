@@ -138,11 +138,11 @@ msgstr "選擇目錄"
 
 #: ../ui/home_page.py:295
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../ui/home_page.py:296 ../ui/item_render.py:32
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../ui/home_page.py:467
 #, python-format
