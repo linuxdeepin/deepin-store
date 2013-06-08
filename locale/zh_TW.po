@@ -268,7 +268,7 @@ msgstr "檢視新特性"
 
 #: ../ui/software_center.py:690
 msgid "Option"
-msgstr "選項"
+msgstr "偏好設定"
 
 #: ../ui/software_center.py:691
 msgid "Quit"
