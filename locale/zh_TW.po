@@ -45,12 +45,12 @@ msgstr "下載排名"
 #: ../ui/software_center.py:121
 #, python-format
 msgid "%s haven't any desktop file"
-msgstr "%s 沒有桌面启动檔案"
+msgstr "%s 沒有桌面啟動檔案"
 
 #: ../ui/software_center.py:129
 #, python-format
 msgid "%s: request for starting applications sent"
-msgstr "%s：已經發送应用程式啟動請求"
+msgstr "%s：已經發送應用程式啟動請求求"
 
 #: ../ui/software_center.py:190
 msgid "Sending comment..."
@@ -89,12 +89,12 @@ msgstr "重試"
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
-msgstr "分析 %s 相依關係時發生問題。安裝停止"
+msgstr "分析 %s 依賴關係時發生問題。安裝停止"
 
 #: ../ui/software_center.py:406
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
-msgstr "分析 %s 相依關係時發生問題。升級停止"
+msgstr "分析 %s 依賴關係時發生問題。升級停止"
 
 #: ../ui/software_center.py:415
 #, python-format
@@ -156,7 +156,7 @@ msgstr "正在重新整理應用程式清單"
 
 #: ../ui/software_center.py:941 ../ui/preference.py:386
 msgid "Run in background"
-msgstr "後台運行"
+msgstr "背景執行"
 
 #: ../ui/software_center.py:999
 #, python-format
@@ -165,7 +165,7 @@ msgstr "恭喜您清理了 %s 個套件，共節約了 %s 磁碟空間"
 
 #: ../ui/software_center.py:1001
 msgid "Your system is clean."
-msgstr "您的系統已經很幹淨了，無需進行清理。"
+msgstr "您的系統已經很乾淨了，毋需進行清理。"
 
 #: ../ui/search_page.py:109
 #, python-format
@@ -193,7 +193,7 @@ msgstr "升級所選軟體"
 #: ../ui/upgrade_page.py:177
 #, python-format
 msgid "%s applications are available for upgrade"
-msgstr "當前共有 %s 款應用程式有可用的升級"
+msgstr "目前共有 %s 款應用程式有可用的升級"
 
 #: ../ui/upgrade_page.py:211 ../ui/item_render.py:46
 msgid "Watch again"
@@ -217,7 +217,7 @@ msgstr "等待下載"
 #: ../ui/upgrade_page.py:1225 ../ui/install_page.py:306
 #: ../ui/install_page.py:676
 msgid "Analyzing dependencies"
-msgstr "正在分析相依關係"
+msgstr "正在分析依賴關係"
 
 #: ../ui/upgrade_page.py:1239 ../ui/install_page.py:690
 msgid "Downloading"
@@ -229,7 +229,7 @@ msgstr "正在等待升級"
 
 #: ../ui/upgrade_page.py:1265 ../ui/install_page.py:716
 msgid "Analyzing dependencies failed"
-msgstr "分析相依關係失敗"
+msgstr "分析依賴關係失敗"
 
 #: ../ui/upgrade_page.py:1274 ../ui/upgrade_page.py:1281
 msgid "Upgrading"
@@ -324,7 +324,7 @@ msgstr "多媒體"
 
 #: ../ui/category_info.py:36
 msgid "Audiovideo"
-msgstr "音頻視頻"
+msgstr "音訊視訊"
 
 #: ../ui/category_info.py:37
 msgid "Audiovideo editing"
@@ -432,7 +432,7 @@ msgstr "攝影藝術"
 
 #: ../ui/category_info.py:63
 msgid "Vector graphics"
-msgstr "矢量圖形"
+msgstr "向量圖形"
 
 #: ../ui/category_info.py:64
 msgid "Viewer"
@@ -504,7 +504,7 @@ msgstr "除錯"
 
 #: ../ui/category_info.py:81
 msgid "IDE"
-msgstr "集成開發環境"
+msgstr "整合開發環境"
 
 #: ../ui/category_info.py:82
 msgid "Software development"
@@ -620,7 +620,7 @@ msgid ""
 "good applications. \n"
 msgstr ""
 "深度軟體中心是 Linux Deepin 系統搭載的軟體管理服務中心。它為使用者提供了超過 "
-"2,600 多套應用程式。輕松安裝與解除安裝軟體、提供多線程加速下載，並可以輕松清"
+"2,600 多套應用程式。輕鬆安裝與解除安裝軟體、提供多線程加速下載，並可以輕鬆清"
 "理下載快取檔案。也創新性的提供軟體推薦和主題分享功能。\n"
 
 #: ../ui/preference.py:300
