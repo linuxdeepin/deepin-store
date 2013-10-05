@@ -140,7 +140,7 @@ msgstr "清理快取套件"
 
 #: ../ui/software_center.py:739
 msgid "View new features"
-msgstr "檢視新特性"
+msgstr "檢視新特點"
 
 #: ../ui/software_center.py:740
 msgid "Preferences"
