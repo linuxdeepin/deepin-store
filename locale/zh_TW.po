@@ -50,7 +50,7 @@ msgstr "%s 沒有桌面啟動檔案"
 #: ../ui/software_center.py:132
 #, python-format
 msgid "%s: request for starting applications sent"
-msgstr "%s：已經發送應用程式啟動請求求"
+msgstr "%s：已經發送應用程式啟動請求"
 
 #: ../ui/software_center.py:193
 msgid "Sending comment..."
