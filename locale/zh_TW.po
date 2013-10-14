@@ -283,27 +283,27 @@ msgstr "Powered by 又拍云存储"
 
 #: ../ui/utils.py:283
 msgid "Running"
-msgstr ""
+msgstr "正在執行"
 
 #: ../ui/utils.py:284
 msgid "Preparing"
-msgstr ""
+msgstr "正在準備"
 
 #: ../ui/utils.py:285
 msgid "Unpacking"
-msgstr ""
+msgstr "正在解開"
 
 #: ../ui/utils.py:286
 msgid "Preparing to configure"
-msgstr ""
+msgstr "正在準備設定"
 
 #: ../ui/utils.py:287
 msgid "Configuring"
-msgstr ""
+msgstr "正在設定"
 
 #: ../ui/utils.py:288
 msgid "Installed"
-msgstr ""
+msgstr "已安裝"
 
 #: ../ui/category_info.py:26
 msgid "Internet"
@@ -607,7 +607,7 @@ msgstr "文字編輯器"
 
 #: ../ui/widgets.py:462
 msgid "OK"
-msgstr ""
+msgstr "確認"
 
 #: ../ui/widgets.py:463 ../ui/preference.py:215
 msgid "Cancel"
