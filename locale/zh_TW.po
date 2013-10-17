@@ -204,89 +204,88 @@ msgid "%s applications are not being watched"
 msgstr "%s 款應用程式將不再提醒"
 
 #: ../ui/upgrade_page.py:273
-#, fuzzy
 msgid "Downloading updates"
-msgstr "正在下載"
+msgstr "正在下載更新"
 
 #: ../ui/upgrade_page.py:280
 msgid "Last refresh app list time: "
-msgstr ""
+msgstr "上次重新整理應用清單時間："
 
 #: ../ui/upgrade_page.py:290
 msgid "The source mirror: "
-msgstr ""
+msgstr "軟體檔案庫："
 
 #: ../ui/upgrade_page.py:351
 msgid "Failed to download updates"
-msgstr ""
+msgstr "無法下載更新"
 
 #: ../ui/upgrade_page.py:353
 msgid "The requested package does not exsist on server."
-msgstr ""
+msgstr "請求的套件在伺服器上不存在。"
 
 #: ../ui/upgrade_page.py:354 ../ui/upgrade_page.py:375
 #: ../ui/upgrade_page.py:396
 msgid "Suggest to "
-msgstr ""
+msgstr "建議"
 
 #: ../ui/upgrade_page.py:355 ../ui/upgrade_page.py:376
 #: ../ui/upgrade_page.py:397
-#, fuzzy
 msgid "refresh applications lists"
 msgstr "重新整理應用程式清單"
 
 #: ../ui/upgrade_page.py:356 ../ui/upgrade_page.py:377
 #: ../ui/upgrade_page.py:398
-#, fuzzy
 msgid " and try again."
-msgstr "重試"
+msgstr "後，重試。"
 
 #: ../ui/upgrade_page.py:371
 msgid "Failed to install updates"
-msgstr ""
+msgstr "無法安裝更新"
 
 #: ../ui/upgrade_page.py:373
 msgid "This may be because your local dependencies are corrupted."
-msgstr ""
+msgstr "出現該情況的原因可能是本地依賴關係被損壞。"
 
 #: ../ui/upgrade_page.py:392
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: ../ui/upgrade_page.py:394
 msgid ""
 "Crucial components will be uninstalled. This may be because your local "
 "dependencies are corrupted, or incorrect dependencies on server."
 msgstr ""
+"本次更新將要解除安裝重要的系統組件，出現該情況的原因可能是本地依賴關係損壞，或者"
+"伺服器端套件依賴不正確。"
 
 #: ../ui/upgrade_page.py:428
 msgid "If the problem persists, you may wish to "
-msgstr ""
+msgstr "請根據建議重試，如果繼續看到本提示，您可以"
 
 #: ../ui/upgrade_page.py:429 ../ui/upgrade_page.py:455
 msgid "Send Error Report"
-msgstr ""
+msgstr "提交問題報告"
 
 #: ../ui/upgrade_page.py:430
 msgid "."
-msgstr ""
+msgstr "。"
 
 #: ../ui/upgrade_page.py:443
 msgid "Uploading error log"
-msgstr ""
+msgstr "正在上載錯誤日志"
 
 #: ../ui/upgrade_page.py:448
 msgid "The error was successfully reported and will be soon handled."
-msgstr ""
+msgstr "錯誤已成功報告，我們將盡快處理。"
 
 #: ../ui/upgrade_page.py:454
 msgid "Failed to send the error report. You may wish to try again. "
-msgstr ""
+msgstr "錯誤報告失敗。您可以繼續重試。"
 
 #: ../ui/upgrade_page.py:613
 #, python-format
 msgid "%s updates are selected. %s will be downloaded."
-msgstr ""
+msgstr "已經選中 %s 個更新，將下載 %s。"
 
 #: ../ui/upgrade_page.py:844
 #, python-format
@@ -294,53 +293,45 @@ msgid "Refresh applications lists %s%%"
 msgstr "重新整理應用程式清單 %s%%"
 
 #: ../ui/upgrade_page.py:1037
-#, fuzzy
 msgid "Analyzing dependencies..."
-msgstr "正在分析依賴關係"
+msgstr "正在分析依賴關係..."
 
 #: ../ui/upgrade_page.py:1040
-#, fuzzy
 msgid "Finished analyzing dependencies."
-msgstr "正在分析依賴關係"
+msgstr "依賴關係分析結束。"
 
 #: ../ui/upgrade_page.py:1043
-#, fuzzy
 msgid "Download has started..."
-msgstr "下載被中斷"
+msgstr "已經開始下載..."
 
 #: ../ui/upgrade_page.py:1049
 #, python-format
 msgid "Completed: %s/%s (%s/%s) Download rate: %s/s"
-msgstr ""
+msgstr "已完成：%s/%s (%s/%s) 下載速率：%s/s"
 
 #: ../ui/upgrade_page.py:1059
-#, fuzzy
 msgid "Download finished."
-msgstr "正在下載"
+msgstr "下載結束。"
 
 #: ../ui/upgrade_page.py:1063
-#, fuzzy
 msgid "Download stopped."
-msgstr "下載：%s"
+msgstr "下載停止。"
 
 #: ../ui/upgrade_page.py:1066
-#, fuzzy
 msgid "Failed to analyze dependencies."
-msgstr "正在分析依賴關係"
+msgstr "無法分析依賴關係。"
 
 #: ../ui/upgrade_page.py:1070
-#, fuzzy
 msgid "Installing updates"
-msgstr "正在安裝"
+msgstr "正在安裝更新"
 
 #: ../ui/upgrade_page.py:1071
 msgid "Updating..."
-msgstr ""
+msgstr "正在更新..."
 
 #: ../ui/upgrade_page.py:1078
-#, fuzzy
 msgid "Upgrade finished."
-msgstr "升級信息"
+msgstr "升級結束。"
 
 #: ../ui/upgrade_page.py:1440 ../ui/upgrade_page.py:1559
 #: ../ui/install_page.py:683
@@ -741,29 +732,29 @@ msgstr "文字編輯器"
 
 #: ../ui/widgets.py:67
 msgid "Just now"
-msgstr ""
+msgstr "剛剛"
 
 #: ../ui/widgets.py:72
 msgid "One minute ago"
-msgstr ""
+msgstr "一分鍾前"
 
 #: ../ui/widgets.py:74
 #, python-format
 msgid "%s minutes ago"
-msgstr ""
+msgstr "%s 分鍾前"
 
 #: ../ui/widgets.py:79
 msgid "One hour ago"
-msgstr ""
+msgstr "一小時前"
 
 #: ../ui/widgets.py:81
 #, python-format
 msgid "%s hours ago"
-msgstr ""
+msgstr "%s 小時前"
 
 #: ../ui/widgets.py:85
 msgid "Yesterday"
-msgstr ""
+msgstr "昨天"
 
 #: ../ui/widgets.py:472
 msgid "OK"
