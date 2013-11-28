@@ -1,0 +1,980 @@
+# Spanish translation for PACKAGE package.
+# Copyright (C) 2013 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Translator/Contributor FerN Talavera
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-22 11:38+0800\n"
+"PO-Revision-Date: 2013-11-28 14:32+0100\n"
+"Last-Translator: FerN Talavera <fejnartal@gmail.com>\n"
+"Language-Team: none\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../ui/home_page.py:478
+#, python-format
+msgid "%s: %s applications"
+msgstr "%s: %s aplicaciones"
+
+#: ../ui/home_page.py:666
+#, python-format
+msgid "%s > %s : %s applications"
+msgstr "%s > %s : %s aplicaciones"
+
+#: ../ui/home_page.py:722
+#: ../ui/software_center.py:785
+msgid "Home"
+msgstr "Inicio"
+
+#: ../ui/home_page.py:760
+msgid "Hot applications"
+msgstr "Destacadas"
+
+#: ../ui/home_page.py:760
+msgid "Topics"
+msgstr "Categorías"
+
+#: ../ui/home_page.py:760
+msgid "Download rank"
+msgstr "Nº de descargas"
+
+#: ../ui/software_center.py:127
+#, fuzzy, python-format
+msgid "%s haven't any desktop file"
+msgstr "%s haven't any desktop file"
+
+#: ../ui/software_center.py:135
+#, fuzzy, python-format
+msgid "%s: request for starting applications sent"
+msgstr "%s: request for starting applications sent"
+
+#: ../ui/software_center.py:196
+msgid "Sending comment..."
+msgstr "Enviando commentario..."
+
+#: ../ui/software_center.py:200
+msgid "You have already sent a comment ;)"
+msgstr "Ya has comentado este paquete ;)"
+
+#: ../ui/software_center.py:206
+msgid "Comment was successful. Thanks for your involvement. :)"
+msgstr "Tu comentario se ha enviado. Muchas gracias por participar. :)"
+
+#: ../ui/software_center.py:222
+msgid "Comment was failed. Please check your network connection!"
+msgstr "No hemos podido publicar tu comentario. Comprueba tu conexión a internet."
+
+#: ../ui/software_center.py:429
+msgid "Generating local package database..."
+msgstr "Generando base de datos local de los paquetes..."
+
+#: ../ui/software_center.py:437
+msgid "Successfully refreshed applications lists."
+msgstr "La lista de aplicaciones se ha actualizado correctamente."
+
+#: ../ui/software_center.py:449
+msgid "Failed to refresh applications lists."
+msgstr "No se pudo actualizar la lista de aplicaciones."
+
+#: ../ui/software_center.py:450
+msgid "Try again"
+msgstr "Vuelva a intentarlo"
+
+#: ../ui/software_center.py:460
+#, python-format
+msgid "Problem occurred when analyzing dependencies for %s. Installation aborted"
+msgstr "Se encontraron errores al analizar las dependencias para %s. Instalación cancelada"
+
+#: ../ui/software_center.py:463
+#, python-format
+msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
+msgstr "Se encontraron errores al analizar las dependencias para %s. Actualización cancelada"
+
+#: ../ui/software_center.py:474
+#, python-format
+msgid "The requested package \"%s\" was not found in the package list."
+msgstr "El paquete \"%s\" no se ha podido encontrar en la lista de paquetes."
+
+#: ../ui/software_center.py:475
+msgid "Refresh the package list and try again."
+msgstr "Actualiza la lista de paquetes y reintenta"
+
+#: ../ui/software_center.py:729
+#: ../ui/preference.py:468
+msgid "Deepin Software Center"
+msgstr "Deepin - Centro de Software"
+
+#: ../ui/software_center.py:766
+msgid "Join us"
+msgstr "Únete"
+
+#: ../ui/software_center.py:786
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: ../ui/software_center.py:787
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: ../ui/software_center.py:788
+msgid "Install Manage"
+msgstr "Install Manage"
+
+#: ../ui/software_center.py:812
+msgid "Refresh applications lists"
+msgstr "Actualizar la lista de aplicaciones"
+
+#: ../ui/software_center.py:813
+msgid "Open download directory"
+msgstr "Abrir carpeta de descargas"
+
+#: ../ui/software_center.py:814
+msgid "Clear up cached packages"
+msgstr "Limpiar la caché de paquetes"
+
+#: ../ui/software_center.py:815
+msgid "View new features"
+msgstr "Ver las mejoras"
+
+#: ../ui/software_center.py:816
+msgid "Preferences"
+msgstr "Configuración"
+
+#: ../ui/software_center.py:817
+msgid "Quit"
+msgstr "Salir"
+
+#: ../ui/software_center.py:1118
+#, python-format
+msgid "You have cleared up %s pakcages and saved %s of space"
+msgstr "¡Hemos limpiado %s paquetes ahorrando %s de espacio en disco!"
+
+#: ../ui/software_center.py:1120
+msgid "Your system is clean."
+msgstr "Tu sistema está limpio."
+
+#: ../ui/search_page.py:109
+#, python-format
+msgid "%s: %s matched applications"
+msgstr "%s: %s aplicaciones concuerdan"
+
+#: ../ui/search_page.py:285
+#: ../ui/detail_page.py:424
+#: ../ui/install_page.py:474
+msgid "Successfully installed"
+msgstr "Instalación satisfactoria"
+
+#: ../ui/upgrade_page.py:70
+#: ../ui/upgrade_page.py:99
+#: ../ui/upgrade_page.py:292
+msgid "Last upgraded time: "
+msgstr "Última actualización: "
+
+#: ../ui/upgrade_page.py:128
+#: ../ui/upgrade_page.py:200
+#, python-format
+msgid "Unwatched (%s)"
+msgstr "Yo no sigues (%s)"
+
+#: ../ui/upgrade_page.py:174
+msgid "Upgrade select items"
+msgstr "Actualizar seleccionados"
+
+#: ../ui/upgrade_page.py:196
+#, python-format
+msgid "%s applications are available for upgrade"
+msgstr "%s aplicaciones son actualizables"
+
+#: ../ui/upgrade_page.py:230
+#: ../ui/item_render.py:46
+msgid "Watch again"
+msgstr "Volver a seguir"
+
+#: ../ui/upgrade_page.py:264
+#, python-format
+msgid "%s applications are not being watched"
+msgstr "%s aplicaciones disponibles para seguir"
+
+#: ../ui/upgrade_page.py:280
+msgid "Downloading updates"
+msgstr "Descargando actualizaciones"
+
+#: ../ui/upgrade_page.py:287
+msgid "Last refresh app list time: "
+msgstr "Listado-Última actualización: "
+
+#: ../ui/upgrade_page.py:297
+#, fuzzy
+msgid "The source mirror: "
+msgstr "The source mirror: "
+
+#: ../ui/upgrade_page.py:358
+msgid "Failed to download updates"
+msgstr "Fallo al descarga las actualizaciones"
+
+#: ../ui/upgrade_page.py:360
+msgid "The requested package does not exsist on server."
+msgstr "El paquete no se pudo encontrar en el servidor"
+
+#: ../ui/upgrade_page.py:361
+#: ../ui/upgrade_page.py:382
+#: ../ui/upgrade_page.py:403
+msgid "Suggest to "
+msgstr "Recomendar "
+
+#: ../ui/upgrade_page.py:362
+#: ../ui/upgrade_page.py:383
+#: ../ui/upgrade_page.py:404
+msgid "refresh applications lists"
+msgstr "actualiza la lista de paquetes"
+
+#: ../ui/upgrade_page.py:363
+#: ../ui/upgrade_page.py:384
+#: ../ui/upgrade_page.py:405
+msgid " and try again."
+msgstr " y vuelve a intentarlo"
+
+#: ../ui/upgrade_page.py:378
+msgid "Failed to install updates"
+msgstr "Error al instalar las actualizaciones"
+
+#: ../ui/upgrade_page.py:380
+msgid "This may be because your local dependencies are corrupted."
+msgstr "Es posible que se deba a dependencias locales corruptas."
+
+#: ../ui/upgrade_page.py:399
+msgid "Warning"
+msgstr "Aviso"
+
+#: ../ui/upgrade_page.py:401
+msgid "Crucial components will be uninstalled. This may be because your local dependencies are corrupted, or incorrect dependencies on server."
+msgstr "Se van a desinstalar elementos importantes. Esto puede ser debido a dependencias corruptas en su máquina o el servidor."
+
+#: ../ui/upgrade_page.py:440
+msgid "If the problem persists, you may wish to "
+msgstr "Si el problema continua, podría interesarle "
+
+#: ../ui/upgrade_page.py:441
+#: ../ui/upgrade_page.py:467
+msgid "Send Error Report"
+msgstr "Enviar reporte de errores"
+
+#: ../ui/upgrade_page.py:442
+msgid "."
+msgstr "."
+
+#: ../ui/upgrade_page.py:455
+msgid "Uploading error log"
+msgstr "Enviando registro de errores"
+
+#: ../ui/upgrade_page.py:460
+msgid "The error was successfully reported and will be soon handled."
+msgstr "Se ha informado correctamente del error y será atendido en breve."
+
+#: ../ui/upgrade_page.py:466
+msgid "Failed to send the error report. You may wish to try again. "
+msgstr "Fallo al enviar el registro de errores. Tal vez quiera reintentarlo. "
+
+#: ../ui/upgrade_page.py:625
+#, python-format
+msgid "%s updates are selected. %s will be downloaded."
+msgstr "Se han seleccionado %s actualizaciones. %s se descargarán."
+
+#: ../ui/upgrade_page.py:853
+#, python-format
+msgid "Refresh applications lists %s%%"
+msgstr "Actualizar lista de aplicaciones %s%%"
+
+#: ../ui/upgrade_page.py:1046
+msgid "Analyzing dependencies..."
+msgstr "Analizando dependencias"
+
+#: ../ui/upgrade_page.py:1049
+msgid "Finished analyzing dependencies."
+msgstr "Finalizado análisis de de dependencias"
+
+#: ../ui/upgrade_page.py:1052
+msgid "Download has started..."
+msgstr "Descarga iniciada..."
+
+#: ../ui/upgrade_page.py:1058
+#, python-format
+msgid "Completed: %s/%s (%s/%s) Download rate: %s/s"
+msgstr "Completado: %s/%s (%s/%s) Velocidad: %s/s"
+
+#: ../ui/upgrade_page.py:1068
+msgid "Download finished."
+msgstr "Descarga terminada"
+
+#: ../ui/upgrade_page.py:1072
+msgid "Download stopped."
+msgstr "Se detuvo la descarga"
+
+#: ../ui/upgrade_page.py:1075
+msgid "Failed to analyze dependencies."
+msgstr "Error al analizar las dependencias"
+
+#: ../ui/upgrade_page.py:1079
+msgid "Installing updates"
+msgstr "Instalando actualizaciones"
+
+#: ../ui/upgrade_page.py:1080
+msgid "Updating..."
+msgstr "Actualizando..."
+
+#: ../ui/upgrade_page.py:1087
+msgid "Upgrade finished."
+msgstr "Actualización terminada"
+
+#: ../ui/upgrade_page.py:1449
+#: ../ui/upgrade_page.py:1568
+#: ../ui/install_page.py:683
+msgid "Waiting for download"
+msgstr "Esperando la descarga"
+
+#: ../ui/upgrade_page.py:1561
+#: ../ui/install_page.py:306
+#: ../ui/install_page.py:676
+msgid "Analyzing dependencies"
+msgstr "Analizando dependencias"
+
+#: ../ui/upgrade_page.py:1575
+#: ../ui/install_page.py:690
+msgid "Downloading"
+msgstr "Descargando"
+
+#: ../ui/upgrade_page.py:1591
+msgid "Waiting for upgrade"
+msgstr "Esperando la actualización"
+
+#: ../ui/upgrade_page.py:1601
+#: ../ui/install_page.py:716
+msgid "Analyzing dependencies failed"
+msgstr "Análisis de dependencias fallido"
+
+#: ../ui/upgrade_page.py:1610
+#: ../ui/upgrade_page.py:1617
+msgid "Upgrading"
+msgstr "Actualizando"
+
+#: ../ui/upgrade_page.py:1626
+msgid "Upgrade complete"
+msgstr "Actualización finalizada"
+
+#: ../ui/detail_page.py:175
+msgid "Also in the category..."
+msgstr "También en la categoría..."
+
+#: ../ui/detail_page.py:236
+#: ../ui/detail_page.py:471
+msgid "Loading comments..."
+msgstr "Cargando comentarios..."
+
+#: ../ui/detail_page.py:350
+#, python-format
+msgid "Download: %s"
+msgstr "Descarga: %s"
+
+#: ../ui/detail_page.py:378
+msgid "Category: "
+msgstr "Categoría: "
+
+#: ../ui/detail_page.py:381
+#, python-format
+msgid "Version: %s"
+msgstr "Versión: %s"
+
+#: ../ui/detail_page.py:382
+msgid "Download: 0"
+msgstr "Descarga: 0"
+
+#: ../ui/detail_page.py:383
+msgid "Size: calculating..."
+msgstr "Tamaño: calculando..."
+
+#: ../ui/detail_page.py:387
+msgid "Visit Homepage"
+msgstr "Visita la Web"
+
+#: ../ui/detail_page.py:448
+#, python-format
+msgid "Size: %s"
+msgstr "Tamaño: %s"
+
+#: ../ui/detail_page.py:589
+#, fuzzy
+msgid "Powered by 又拍云存储"
+msgstr "Powered by 又拍云存储"
+
+#: ../ui/utils.py:291
+msgid "Running"
+msgstr "Ejecutando"
+
+#: ../ui/utils.py:292
+msgid "Preparing"
+msgstr "Preparando"
+
+#: ../ui/utils.py:293
+msgid "Unpacking"
+msgstr "Desempaquetando"
+
+#: ../ui/utils.py:294
+msgid "Preparing to configure"
+msgstr "Preparando la configuración"
+
+#: ../ui/utils.py:295
+msgid "Configuring"
+msgstr "Configurando"
+
+#: ../ui/utils.py:296
+msgid "Installed"
+msgstr "Instalado"
+
+#: ../ui/utils.py:306
+msgid "Err"
+msgstr "Error"
+
+#: ../ui/utils.py:307
+msgid "Ign"
+msgstr "Ignorar"
+
+#: ../ui/utils.py:308
+msgid "Get"
+msgstr "Obtener"
+
+#: ../ui/utils.py:309
+msgid "Hit"
+msgstr "Hit"
+
+#: ../ui/category_info.py:26
+msgid "Internet"
+msgstr "Internet"
+
+#: ../ui/category_info.py:27
+msgid "Browser"
+msgstr "Navegador"
+
+#: ../ui/category_info.py:28
+msgid "Instant messaging"
+msgstr "Mensagería instantánea"
+
+# 需调整宽度
+#: ../ui/category_info.py:29
+msgid "Email"
+msgstr "Email"
+
+#: ../ui/category_info.py:30
+msgid "File transfer"
+msgstr "Transferencia de archivos"
+
+#: ../ui/category_info.py:31
+msgid "News"
+msgstr "Noticias"
+
+#: ../ui/category_info.py:32
+msgid "Remote access"
+msgstr "Acceso remoto"
+
+#: ../ui/category_info.py:33
+msgid "Security"
+msgstr "Seguridad"
+
+#: ../ui/category_info.py:34
+msgid "Miscellaneous"
+msgstr "Miscelánea"
+
+#: ../ui/category_info.py:35
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../ui/category_info.py:36
+msgid "Audiovideo"
+msgstr "Audio/vídeo"
+
+#: ../ui/category_info.py:37
+msgid "Audiovideo editing"
+msgstr "Edición de audio/vídeo"
+
+#: ../ui/category_info.py:38
+msgid "Disc burner"
+msgstr "Grabación de discos"
+
+#: ../ui/category_info.py:39
+msgid "MIDI"
+msgstr "MIDI"
+
+#: ../ui/category_info.py:40
+msgid "Mixer"
+msgstr "Mezclador"
+
+#: ../ui/category_info.py:41
+msgid "Player"
+msgstr "Reproductor"
+
+#: ../ui/category_info.py:42
+msgid "Recorder"
+msgstr "Grabador"
+
+#: ../ui/category_info.py:43
+msgid "Sequencer"
+msgstr "Sequenciador"
+
+#: ../ui/category_info.py:44
+#, fuzzy
+msgid "Tuner"
+msgstr "Tuner"
+
+#: ../ui/category_info.py:45
+msgid "Games"
+msgstr "Juegos"
+
+#: ../ui/category_info.py:46
+msgid "Action games"
+msgstr "Juegos de acción"
+
+#: ../ui/category_info.py:47
+msgid "Advernture games"
+msgstr "Juegos de aventura"
+
+#: ../ui/category_info.py:48
+msgid "Arcade games"
+msgstr "Juegos de arcade"
+
+#: ../ui/category_info.py:49
+msgid "Board games"
+msgstr "Juegos de mesa"
+
+#: ../ui/category_info.py:50
+msgid "Card games"
+msgstr "Juegos de cartas"
+
+#: ../ui/category_info.py:51
+msgid "Emulator"
+msgstr "Emuladores"
+
+#: ../ui/category_info.py:52
+msgid "Kids games"
+msgstr "Juegos infantiles"
+
+#: ../ui/category_info.py:53
+msgid "Logic games"
+msgstr "Juegos de lógica"
+
+#: ../ui/category_info.py:54
+msgid "Puzzle games"
+msgstr "Juegos de puzle"
+
+#: ../ui/category_info.py:55
+msgid "Role-playing games"
+msgstr "Juegos de rol"
+
+#: ../ui/category_info.py:56
+msgid "Sports games"
+msgstr "Juegos de deportes"
+
+#: ../ui/category_info.py:57
+msgid "Strategy games"
+msgstr "Juegos de estrategia"
+
+#: ../ui/category_info.py:58
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: ../ui/category_info.py:59
+msgid "2D graphics"
+msgstr "Gráficos 2D"
+
+#: ../ui/category_info.py:60
+msgid "3D graphics"
+msgstr "Gráficos 3D"
+
+#: ../ui/category_info.py:61
+msgid "Image processing"
+msgstr "Procesamiento de imagen"
+
+# 调整宽度
+#: ../ui/category_info.py:62
+msgid "Photography"
+msgstr "Fotografía"
+
+#: ../ui/category_info.py:63
+msgid "Vector graphics"
+msgstr "Gráficos vectoriales"
+
+#: ../ui/category_info.py:64
+msgid "Viewer"
+msgstr "Visor"
+
+#: ../ui/category_info.py:65
+msgid "Productivity"
+msgstr "Productividad"
+
+#: ../ui/category_info.py:66
+msgid "Office"
+msgstr "Oficina"
+
+#: ../ui/category_info.py:67
+msgid "Scanning printing"
+msgstr "Impresoras y escáneres"
+
+#: ../ui/category_info.py:68
+msgid "Industry"
+msgstr "Industria"
+
+#: ../ui/category_info.py:69
+msgid "Engineering"
+msgstr "Ingeniería"
+
+#: ../ui/category_info.py:70
+msgid "Finance"
+msgstr "Finanzas"
+
+#: ../ui/category_info.py:71
+#, fuzzy
+msgid "Ham radio"
+msgstr "Ham radio"
+
+#: ../ui/category_info.py:72
+msgid "Medical"
+msgstr "Medicina"
+
+#: ../ui/category_info.py:73
+msgid "Publishing"
+msgstr "Publicación"
+
+#: ../ui/category_info.py:74
+msgid "Education"
+msgstr "Educación"
+
+#: ../ui/category_info.py:75
+msgid "Languages"
+msgstr "Idiomas"
+
+#: ../ui/category_info.py:76
+msgid "Religion"
+msgstr "Religión"
+
+#: ../ui/category_info.py:77
+msgid "Science"
+msgstr "Ciencia"
+
+#: ../ui/category_info.py:78
+msgid "Development"
+msgstr "Desarrollo"
+
+#: ../ui/category_info.py:79
+msgid "Database"
+msgstr "Bases de datos"
+
+#: ../ui/category_info.py:80
+msgid "Debugging"
+msgstr "Depuración"
+
+#: ../ui/category_info.py:81
+msgid "IDE"
+msgstr "Entorno de desarrollo"
+
+#: ../ui/category_info.py:82
+msgid "Software development"
+msgstr "Desarrollo de software"
+
+# 调整宽度
+#: ../ui/category_info.py:83
+msgid "Version control"
+msgstr "Control de versiones"
+
+#: ../ui/category_info.py:84
+msgid "Web development"
+msgstr "Desarrollo web"
+
+# 调整宽度
+#: ../ui/category_info.py:85
+msgid "System"
+msgstr "Sistema"
+
+#: ../ui/category_info.py:86
+msgid "Desktop environment"
+msgstr "Entorno de escritorio"
+
+# 调整宽度
+#: ../ui/category_info.py:87
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../ui/category_info.py:88
+msgid "Network"
+msgstr "Redes"
+
+#: ../ui/category_info.py:89
+msgid "Package manager"
+msgstr "Gestor de paquetes"
+
+#: ../ui/category_info.py:90
+msgid "Settings"
+msgstr "Configuración"
+
+#: ../ui/category_info.py:91
+msgid "Virtualization"
+msgstr "Virtualización"
+
+#: ../ui/category_info.py:92
+msgid "Window manager"
+msgstr "Gestor de ventanas"
+
+# 调整宽度
+#: ../ui/category_info.py:93
+msgid "Utilities"
+msgstr "Herramientas"
+
+#: ../ui/category_info.py:94
+msgid "Accessories"
+msgstr "Accesorios"
+
+#: ../ui/category_info.py:95
+msgid "Archiving"
+msgstr "Compresor"
+
+#: ../ui/category_info.py:96
+msgid "Emulation"
+msgstr "Emulación"
+
+#: ../ui/category_info.py:97
+msgid "File manager"
+msgstr "Gestor de ficheros"
+
+#: ../ui/category_info.py:98
+msgid "Screensaver"
+msgstr "Salvapantallas"
+
+#: ../ui/category_info.py:99
+msgid "Terminal emulator"
+msgstr "Emulador de terminal"
+
+# 调整宽度
+#: ../ui/category_info.py:100
+msgid "Text editor"
+msgstr "Editor de texto"
+
+#: ../ui/widgets.py:67
+msgid "Just now"
+msgstr "Ahora mismo"
+
+#: ../ui/widgets.py:72
+msgid "One minute ago"
+msgstr "Hace un minuto"
+
+#: ../ui/widgets.py:74
+#, python-format
+msgid "%s minutes ago"
+msgstr "Hace %s minutos"
+
+#: ../ui/widgets.py:79
+msgid "One hour ago"
+msgstr "Hace una hora"
+
+#: ../ui/widgets.py:81
+#, python-format
+msgid "%s hours ago"
+msgstr "Hace %s horas"
+
+#: ../ui/widgets.py:85
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: ../ui/widgets.py:471
+msgid "OK"
+msgstr "OK"
+
+#: ../ui/widgets.py:472
+#: ../ui/preference.py:450
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../ui/download_rank_page.py:69
+msgid "Top 25 weekly"
+msgstr "Top 25 semanal"
+
+#: ../ui/download_rank_page.py:69
+msgid "Top 25 monthly"
+msgstr "Top 25 del mes"
+
+#: ../ui/download_rank_page.py:69
+msgid "Top 25 of all time"
+msgstr "Top 25 de siempre"
+
+#: ../ui/preference.py:294
+msgid "Untitled"
+msgstr "Sin título"
+
+#: ../ui/preference.py:309
+msgid "Unknown mirror url"
+msgstr "Url de mirro desconocida"
+
+#: ../ui/preference.py:473
+msgid "Version:"
+msgstr "Versión:"
+
+#: ../ui/preference.py:490
+msgid "Deepin Software Center is a commonly used software center on Linux. It selected more than 2,600 decent applications and features easy installation and uninstall, software repository and recommended applications. It supports 1-click install, downloading packages with multi-thread and clearing up cached packages. It provides topics for software introduction and shares good applications. \n"
+msgstr "El Centro de Software Deepin es una excelente herramienta común a los sistemas Linux. Está provisto de más de 2.600 aplicaciones estupendas además de proporcionarnos una forma fácil de instalar, desinstalar aplicaciones así como compartir, comentar y agregar nuevos orígenes de software. Con tan sólo un click podrá instalar, descargar y limpiar paquetes de software etiquetados cómodamente por categorías para que resulte -aún más fácil- encontrar justo la aplicación que andabas buscando. \n"
+
+#: ../ui/preference.py:536
+msgid "General"
+msgstr "General"
+
+#: ../ui/preference.py:537
+msgid "Software repository"
+msgstr "Orígenes de software"
+
+#: ../ui/preference.py:538
+msgid "About"
+msgstr "Acerca de"
+
+#: ../ui/preference.py:558
+msgid "Select mirror"
+msgstr "Seleccionar el mirror"
+
+#: ../ui/preference.py:600
+msgid "Select best mirror"
+msgstr "Seleccionar el mejor mirror"
+
+#: ../ui/preference.py:601
+msgid "Please wait. The process will take 30 seconds or more depending on your network connection"
+msgstr "Por favor espera. Este proceso puede llevar algo más de 30 segundos, dependiendo de tu conexión"
+
+#: ../ui/preference.py:660
+msgid "Test for downloading mirror failed. Please check your network connection."
+msgstr "El intento de descargar el mirror ha fracasado. Por favor compruebe su conexión."
+
+#: ../ui/preference.py:661
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../ui/preference.py:695
+msgid "Update applications lists"
+msgstr "Actualizar lista de aplicaciones"
+
+#: ../ui/preference.py:701
+msgid "Update automatically"
+msgstr "Actualizar automáticamente"
+
+#: ../ui/preference.py:704
+msgid "Time interval: "
+msgstr "Actualizar cada: "
+
+#: ../ui/preference.py:707
+msgid " hour"
+msgstr " hora"
+
+#: ../ui/preference.py:730
+msgid "Download settings"
+msgstr "Configuración de descarga"
+
+#: ../ui/preference.py:736
+msgid "Max download task number: "
+msgstr "Máximo de tareas simultáneas: "
+
+#: ../ui/preference.py:746
+msgid "Download directory: "
+msgstr "Carpeta de descarga: "
+
+#: ../ui/preference.py:752
+msgid "Change"
+msgstr "Modificar"
+
+#: ../ui/preference.py:768
+msgid "On uninstall software"
+msgstr "Al desinstalar un programa"
+
+#: ../ui/preference.py:773
+msgid "Delete configuration files"
+msgstr "Borrar archivos de configuración"
+
+#: ../ui/preference.py:810
+msgid "Select Directory"
+msgstr "Seleccionar carpeta"
+
+#: ../ui/item_render.py:44
+msgid "Unwatch"
+msgstr "Dejar de seguir"
+
+#: ../ui/uninstall_page.py:160
+#, python-format
+msgid "%s applications can be uninstalled"
+msgstr "%s pueden ser desinstaladas"
+
+#: ../ui/uninstall_page.py:462
+#: ../ui/uninstall_page.py:545
+msgid "Waiting for uninstall"
+msgstr "Esperando la desinstalación"
+
+#: ../ui/uninstall_page.py:552
+#: ../ui/uninstall_page.py:559
+msgid "Uninstalling"
+msgstr "Desinstalando"
+
+#: ../ui/uninstall_page.py:566
+msgid "Uninstall successful"
+msgstr "Desinstalación completada"
+
+#: ../ui/install_page.py:134
+#, python-format
+msgid "%s applications are being installed"
+msgstr "%s aplicaciones se están instalando"
+
+#: ../ui/install_page.py:592
+#: ../ui/install_page.py:604
+msgid "Download was interrupted"
+msgstr "Se ha interrumpido la descarga"
+
+#: ../ui/install_page.py:614
+msgid "Installation was interrupted"
+msgstr "Se ha interrumpido la instalación"
+
+#: ../ui/install_page.py:706
+msgid "Waiting for installation"
+msgstr "Esperando la instalación"
+
+#: ../ui/install_page.py:725
+#: ../ui/install_page.py:732
+msgid "Installing"
+msgstr "Instalando"
+
+#: ../ui/install_page.py:741
+msgid "Installation complete"
+msgstr "Instalación completada"
+
+#, fuzzy
+#~ msgid "Update applications lists: [%s] %s"
+#~ msgstr "Actualizar lista de aplicaciones: [%s] %s"
+
+#~ msgid "%s cannot be installed on 64-bit system."
+#~ msgstr "%s no se puede instalar en sistemas 64-bit."
+
+#~ msgid "%s cannot be installed. It might be a x86_64 specific package"
+#~ msgstr "%s no se puede instalar. Puede que sea específico para sistemas 32-bit."
+
+#~ msgid "The software repository has changed. Refreshing applications lists"
+#~ msgstr "El repositorio de software ha cambiado. Actualizando lista de aplicaciones"
+
+#~ msgid "Run in background"
+#~ msgstr "Ejecutar en segundo plano"
+
+#~ msgid "Refreshing applications lists"
+#~ msgstr "Actualizando lista de aplicaciones"
+
+#~ msgid "Select fastest mirror"
+#~ msgstr "Escoger mirror más rápido"
+
+#, fuzzy
+#~ msgid "Last upgrade time: "
+#~ msgstr "Última actualización: "
+
+#~ msgid "Option"
+#~ msgstr "Opción"
