@@ -1,20 +1,22 @@
-# Chinese translations for PACKAGE package.
-# Copyright (C) 2013 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2013.
-#
+# 
+# Translators:
+# Automatically generated, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-05 16:13+0800\n"
-"PO-Revision-Date: 2013-06-05 15:24+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_TW\n"
+"PO-Revision-Date: 2013-12-27 01:21+0000\n"
+"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
+"Language-Team: Chinese (Hong Kong) (http://www.transifex.com/projects/p/deepin-software-center/language/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../apt/dsc-daemon.py:195
 #, python-format
@@ -26,8 +28,8 @@ msgstr "您的系統%s個軟體有可用更新，煩請開啟軟體中心執行�
 #: ../apt/dsc-daemon.py:197
 #, python-format
 msgid ""
-"There is %s package need to upgrade in your system, please open the software "
-"center to upgrade!"
+"There is %s package need to upgrade in your system, please open the software"
+" center to upgrade!"
 msgstr "您的系統%s個軟體有可用更新，煩請開啟軟體中心執行更新！"
 
 #: ../apt/dsc-daemon.py:257

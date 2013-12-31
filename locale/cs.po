@@ -4,13 +4,15 @@
 # 
 # Translators:
 # fri <pavelfric@seznam.cz>, 2013
+# fri <pavelfric@seznam.cz>, 2013
+# fri <pavelfric@seznam.cz>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-05 14:02+0800\n"
-"PO-Revision-Date: 2013-12-24 02:54+0000\n"
-"Last-Translator: lihongwu <lihongwu1987@gmail.com>\n"
+"PO-Revision-Date: 2013-12-26 16:41+0000\n"
+"Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/deepin-software-center/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -453,7 +455,7 @@ msgstr "Chyba"
 
 #: ../ui/utils.py:320
 msgid "Ign"
-msgstr ""
+msgstr "Přehlížet"
 
 #: ../ui/utils.py:321
 msgid "Get"

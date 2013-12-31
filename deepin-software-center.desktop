@@ -1,30 +1,42 @@
 [Desktop Entry]
-Name=Software Center
-Name[zh_CN]=软件中心
-Name[zh_TW]=軟體中心
+Categories=Application;System;Settings
 Comment=A general Linux software manager
+Comment[ar]=مركز عام لبرمجيات لينكس
+Comment[cs]=Obecný linuxový správce software
+Comment[fr]=Gestion general des programmes de Linux
 Comment[zh_CN]=Linux 通用软件管理器
 Comment[zh_TW]=Linux 通用軟體管理者
+Encoding=UTF-8
 Exec=deepin-software-center %f
 Icon=deepin-software-center
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-Encoding=UTF-8
-Categories=Application;System;Settings
+Name=Software Center
+Name[ar]=مركز برمجيات
+Name[cs]=Středisko programů
+Name[fr]=Centre des Programmes
+Name[zh_CN]=软件中心
+Name[zh_TW]=軟體中心
 StartupNotify=false
+Terminal=false
+Type=Application
 X-Ayatana-Desktop-Shortcuts=ShowUpgrade;ShowUninstall
-
-[ShowUpgrade Shortcut Group]
-Name=Open Upgrade Page
-Name[zh_CN]=打开更新页面
-Name[zh_TW]=打開更新頁面
-Exec=/usr/bin/deepin-software-center --page=upgrade
-TargetEnvironment=Unity
+X-MultipleArgs=false
 
 [ShowUninstall Shortcut Group]
+Exec=/usr/bin/deepin-software-center --page=uninstall
 Name=Open Uninstall Page
+Name[ar]=فتح صفحة إلغاء التثبيت
+Name[cs]=Otevřít stránku pro odinstalování
+Name[fr]=Ouvrir la Page de Désinstallation
 Name[zh_CN]=打开卸载页面
 Name[zh_TW]=打開卸載頁面
-Exec=/usr/bin/deepin-software-center --page=uninstall
+TargetEnvironment=Unity
+
+[ShowUpgrade Shortcut Group]
+Exec=/usr/bin/deepin-software-center --page=upgrade
+Name=Open Upgrade Page
+Name[ar]=فتح صفح الترقية
+Name[cs]=Otevřít stránku pro povyšování
+Name[fr]=Ouvrir la Page de Mise en Niveau
+Name[zh_CN]=打开更新页面
+Name[zh_TW]=打開更新頁面
 TargetEnvironment=Unity
