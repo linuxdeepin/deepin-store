@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-05 16:13+0800\n"
+"POT-Creation-Date: 2014-01-17 04:49+0800\n"
 "PO-Revision-Date: 2013-06-05 15:24+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../apt/dsc-daemon.py:195
+#: ../apt/dsc-daemon.py:259
 #, python-format
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
 "software center to upgrade!"
 msgstr "您的系统有%s个软件包需要升级，请打开软件中心进行升级！"
 
-#: ../apt/dsc-daemon.py:197
+#: ../apt/dsc-daemon.py:262
 #, python-format
 msgid ""
 "There is %s package need to upgrade in your system, please open the software "
 "center to upgrade!"
 msgstr "您的系统有%s个软件包需要升级，请打开软件中心进行升级！"
 
-#: ../apt/dsc-daemon.py:257
+#: ../apt/dsc-daemon.py:339
 msgid "Upgrade Info"
 msgstr "升级提示"

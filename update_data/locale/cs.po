@@ -1,36 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
+# fri <pavelfric@seznam.cz>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-05 16:13+0800\n"
-"PO-Revision-Date: 2013-12-27 01:08+0000\n"
-"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/deepin-software-center/language/cs/)\n"
+"POT-Creation-Date: 2014-01-17 04:49+0800\n"
+"PO-Revision-Date: 2014-01-03 07:52+0000\n"
+"Last-Translator: fri <pavelfric@seznam.cz>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/deepin-software-"
+"center/language/cs/)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../apt/dsc-daemon.py:195
+#: ../apt/dsc-daemon.py:259
 #, python-format
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
 "software center to upgrade!"
 msgstr ""
+"Ve vašem systému je %s balíčků, které je třeba povýšit. Otevřete, prosím, "
+"středisko programů, anyste je mohli povýšit!"
 
-#: ../apt/dsc-daemon.py:197
+#: ../apt/dsc-daemon.py:262
 #, python-format
 msgid ""
-"There is %s package need to upgrade in your system, please open the software"
-" center to upgrade!"
+"There is %s package need to upgrade in your system, please open the software "
+"center to upgrade!"
 msgstr ""
+"Ve vašem systému je %s balíček, který je třeba povýšit. Otevřete, prosím, "
+"středisko programů, anyste je mohli povýšit!"
 
-#: ../apt/dsc-daemon.py:257
+#: ../apt/dsc-daemon.py:339
 msgid "Upgrade Info"
-msgstr ""
+msgstr "Informace o povýšení"
