@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# toolband25 <castilloluis2005@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-17 04:49+0800\n"
-"PO-Revision-Date: 2013-12-27 01:08+0000\n"
-"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-01-26 16:29+0000\n"
+"Last-Translator: toolband25 <castilloluis2005@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/deepin-software-"
 "center/language/es/)\n"
 "Language: es\n"
@@ -24,6 +25,8 @@ msgid ""
 "There are %s packages need to upgrade in your system, please open the "
 "software center to upgrade!"
 msgstr ""
+"Hay %s paquetes que necesitan actualizarse en tu sistema, por favor abre el "
+"centro de software para actualizar!"
 
 #: ../apt/dsc-daemon.py:262
 #, python-format
@@ -31,7 +34,9 @@ msgid ""
 "There is %s package need to upgrade in your system, please open the software "
 "center to upgrade!"
 msgstr ""
+"Hay %s paquete que necesita actualizarse en tu sistema, por favor abre el "
+"centro de software para actualizar!"
 
 #: ../apt/dsc-daemon.py:339
 msgid "Upgrade Info"
-msgstr ""
+msgstr "Informe de Actualización"

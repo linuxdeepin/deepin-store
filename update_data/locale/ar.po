@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Mohd <mo-hd@windowslive.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Deepin Software Center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-02-09 20:42+0000\n"
+"Last-Translator: Mohd <mo-hd@windowslive.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/deepin-software-"
+"center/language/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../apt/dsc-daemon.py:259
+#, python-format
+msgid ""
+"There are %s packages need to upgrade in your system, please open the "
+"software center to upgrade!"
+msgstr ""
+"هناك %s حزم تحتاج إلى الترقية في نظامك ، الرجاء أفتح مركز البرمجيات للترقية!"
+
+#: ../apt/dsc-daemon.py:262
+#, python-format
+msgid ""
+"There is %s package need to upgrade in your system, please open the software "
+"center to upgrade!"
+msgstr ""
+"هناك %s حزمة تحتاج إلى الترقية في نظامك ، الرجاء أفتح مركز البرمجيات للترقية!"
+
+#: ../apt/dsc-daemon.py:339
+msgid "Upgrade Info"
+msgstr "معلومات عن الترقية"

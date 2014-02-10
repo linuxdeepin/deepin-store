@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# freddy4212 <freddy4212@gmail.com>, 2013
+# freddy4212 <freddy4212@gmail.com>, 2013-2014
 # Wang Dianjin <wangdianjin@linuxdeepin.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-17 04:49+0800\n"
-"PO-Revision-Date: 2013-12-28 05:29+0000\n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-01-24 03:46+0000\n"
 "Last-Translator: freddy4212 <freddy4212@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/deepin-"
 "software-center/language/zh_TW/)\n"
@@ -70,7 +70,7 @@ msgstr "安裝完成"
 #: ../ui/home_page.py:485
 #, python-format
 msgid "%s: %s applications"
-msgstr "%s: %s 應用程式"
+msgstr "%s: %s 款應用程式"
 
 #: ../ui/home_page.py:674
 #, python-format
@@ -91,7 +91,7 @@ msgstr "主題園地"
 
 #: ../ui/home_page.py:770
 msgid "Download rank"
-msgstr "下載排名"
+msgstr "下載排行"
 
 #: ../ui/utils.py:304
 msgid "Running"
@@ -153,7 +153,7 @@ msgstr "不再提醒(%s)"
 
 #: ../ui/upgrade_page.py:180
 msgid "Upgrade select items"
-msgstr "升級已選擇的軟體"
+msgstr "升級選擇的軟體"
 
 #: ../ui/upgrade_page.py:202
 #, python-format
@@ -175,7 +175,7 @@ msgstr "深度系統設定還沒被安裝！本功能無法運作。"
 
 #: ../ui/upgrade_page.py:318
 msgid "Downloading updates"
-msgstr "正在下載更新"
+msgstr "正在下載升級套件"
 
 #: ../ui/upgrade_page.py:325
 msgid "Last refresh app list time: "
@@ -187,7 +187,7 @@ msgstr "軟體檔案庫："
 
 #: ../ui/upgrade_page.py:389
 msgid "Failed to download updates"
-msgstr "無法下載更新"
+msgstr "無法下載升級套件"
 
 #: ../ui/upgrade_page.py:391
 msgid "The requested package does not exsist on server."
@@ -210,7 +210,7 @@ msgstr "後，重試。"
 
 #: ../ui/upgrade_page.py:409
 msgid "Failed to install updates"
-msgstr "無法安裝更新"
+msgstr "無法安裝升級套件"
 
 #: ../ui/upgrade_page.py:411
 msgid "This may be because your local dependencies are corrupted."
@@ -225,7 +225,7 @@ msgid ""
 "Crucial components will be uninstalled. This may be because your local "
 "dependencies are corrupted, or incorrect dependencies on server."
 msgstr ""
-"本次更新將要解除安裝重要的系統組件，出現該情況的原因可能是本機依賴關係已被破"
+"本次升級將要解除安裝重要的系統組件，出現這種情況的原因可能是本機依賴關係已破"
 "壞，或者伺服器端套件依賴不正確。"
 
 #: ../ui/upgrade_page.py:471
@@ -255,7 +255,7 @@ msgstr "錯誤報告失敗。您可能希望再次嘗試。"
 #: ../ui/upgrade_page.py:659
 #, python-format
 msgid "%s updates are selected. %s will be downloaded."
-msgstr "已經選中 %s 個更新，將下載 %s。"
+msgstr "已經選擇 %s 個更新，將下載 %s。"
 
 #: ../ui/upgrade_page.py:1073
 msgid "Analyzing dependencies..."
@@ -288,11 +288,11 @@ msgstr "無法分析依賴關係。"
 
 #: ../ui/upgrade_page.py:1106
 msgid "Installing updates"
-msgstr "正在安裝更新"
+msgstr "正在安裝升級套件"
 
 #: ../ui/upgrade_page.py:1107
 msgid "Updating..."
-msgstr "正在更新..."
+msgstr "正在升級..."
 
 #: ../ui/upgrade_page.py:1114
 msgid "Upgrade finished."
@@ -338,7 +338,7 @@ msgstr "昨天"
 
 #: ../ui/widgets.py:295 ../ui/widgets.py:369
 msgid "Click to refresh"
-msgstr "點擊此處以重新整理"
+msgstr "點擊此處即可重新整理"
 
 #: ../ui/widgets.py:462
 msgid "OK"
@@ -373,9 +373,11 @@ msgid ""
 "cached packages. It provides topics for software introduction and shares "
 "good applications. \n"
 msgstr ""
-"深度軟體中心是 Linux Deepin 系統搭載的軟體管理服務中心。它為使用者提供了超過 "
-"2,600 多套應用程式。輕鬆安裝與解除安裝軟體、提供多線程加速下載，並可以輕鬆清"
-"理下載快取檔案。也創新性的提供軟體推薦和主題分享功能。\n"
+"深度軟體中心是Linux平台通用的軟體管理中心，精選了2600多款優秀軟體，擁有軟體安"
+"裝與移除、套件倉庫、熱門軟體推荐等多項功能。支援單鍵快速安裝軟體、多線程下載"
+"及套件快取清理。提供專題介紹，分享好軟體。\n"
+"\n"
+"深度軟體中心是一款遵循GNU GPLv3（GNU通用公共授權條款）的自由軟體。\n"
 
 #: ../ui/preference.py:536
 msgid "General"
@@ -442,7 +444,7 @@ msgstr "下載目錄: "
 
 #: ../ui/preference.py:752
 msgid "Change"
-msgstr "變更"
+msgstr "瀏覽"
 
 #: ../ui/preference.py:768
 msgid "On uninstall software"
@@ -836,7 +838,7 @@ msgstr "%s：搜尋到 %s 款應用程式"
 #: ../ui/software_center.py:130
 #, python-format
 msgid "%s haven't any desktop file"
-msgstr "%s 沒有桌面啟動檔案"
+msgstr "%s 沒有桌面啟動文件"
 
 #: ../ui/software_center.py:138
 #, python-format
@@ -871,7 +873,7 @@ msgstr "解除安裝"
 #: ../ui/software_center.py:395
 #, python-format
 msgid "%s packages upgrade Successfully."
-msgstr "%s　套件已成功升級。"
+msgstr "%s 個套件已成功升級。"
 
 #: ../ui/software_center.py:395 ../ui/software_center.py:794
 msgid "Upgrade"
@@ -920,7 +922,7 @@ msgstr "請求的套件 \"%s\" 無法在應用程式清單中找到"
 
 #: ../ui/software_center.py:476
 msgid "Refresh the package list and try again."
-msgstr "重新整理應用程式清單並重是"
+msgstr "重新整理應用程式清單並重試"
 
 #: ../ui/software_center.py:660
 msgid "Information"
@@ -965,4 +967,4 @@ msgstr "恭喜您清理了%s個套件快取，為您節省了%s的硬碟空間�
 
 #: ../ui/software_center.py:1143
 msgid "Your system is clean."
-msgstr "您的遊戲快取已經清理乾淨啦﹗毋需要再次清理。"
+msgstr "您的套件快取已經清理乾淨啦﹗毋需要再次清理。"

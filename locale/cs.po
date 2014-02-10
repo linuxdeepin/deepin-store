@@ -5,13 +5,13 @@
 # Translators:
 # fri <pavelfric@seznam.cz>, 2013
 # fri <pavelfric@seznam.cz>, 2013
-# fri <pavelfric@seznam.cz>, 2013
+# fri <pavelfric@seznam.cz>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-17 04:49+0800\n"
-"PO-Revision-Date: 2013-12-26 16:41+0000\n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-01-25 21:55+0000\n"
 "Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/deepin-software-"
 "center/language/cs/)\n"
@@ -553,7 +553,7 @@ msgstr "Okamžitá výměna zpráv"
 
 #: ../ui/category_info.py:29
 msgid "Email"
-msgstr "E-mail"
+msgstr "Elektronická pošta"
 
 #: ../ui/category_info.py:30
 msgid "File transfer"
@@ -621,7 +621,7 @@ msgstr "Hry"
 
 #: ../ui/category_info.py:46
 msgid "Action games"
-msgstr "Akční hry"
+msgstr "Bojové hry"
 
 #: ../ui/category_info.py:47
 msgid "Advernture games"
@@ -761,7 +761,7 @@ msgstr "Ladění"
 
 #: ../ui/category_info.py:81
 msgid "IDE"
-msgstr "IDE"
+msgstr "Vývojová prostředí"
 
 #: ../ui/category_info.py:82
 msgid "Software development"

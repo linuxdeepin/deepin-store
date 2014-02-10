@@ -4,13 +4,13 @@
 #
 # Translators:
 # Automatically generated, 2013
-# freddy4212 <freddy4212@gmail.com>, 2013
+# freddy4212 <freddy4212@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-17 04:49+0800\n"
-"PO-Revision-Date: 2013-12-28 05:31+0000\n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-01-24 01:22+0000\n"
 "Last-Translator: freddy4212 <freddy4212@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/deepin-"
 "software-center/language/zh_TW/)\n"
@@ -25,14 +25,14 @@ msgstr ""
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
 "software center to upgrade!"
-msgstr "您的系統%s個軟體有可用升級，麻煩請開啟軟體中心進行升級！"
+msgstr "您的系統有 %s 個軟體需要升級，請開啟軟體中心進行升級！"
 
 #: ../apt/dsc-daemon.py:262
 #, python-format
 msgid ""
 "There is %s package need to upgrade in your system, please open the software "
 "center to upgrade!"
-msgstr "您的系統%s個軟體有可用升級，麻煩請開啟軟體中心進行升級！"
+msgstr "您的系統有 %s 個軟體需要升級，請開啟軟體中心進行升級！"
 
 #: ../apt/dsc-daemon.py:339
 msgid "Upgrade Info"

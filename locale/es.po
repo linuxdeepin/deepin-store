@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# toolband25 <castilloluis2005@gmail.com>, 2014
 # gamjachib <drios9420@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-17 04:49+0800\n"
-"PO-Revision-Date: 2013-12-12 04:05+0000\n"
-"Last-Translator: gamjachib <drios9420@gmail.com>\n"
+"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"PO-Revision-Date: 2014-01-26 17:02+0000\n"
+"Last-Translator: toolband25 <castilloluis2005@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/deepin-software-"
 "center/language/es/)\n"
 "Language: es\n"
@@ -138,7 +139,7 @@ msgstr "Dejar de seguir"
 
 #: ../ui/item_render.py:46 ../ui/upgrade_page.py:236
 msgid "Watch again"
-msgstr "Volver a seguir"
+msgstr "Supervisar de nuevo"
 
 #: ../ui/upgrade_page.py:76 ../ui/upgrade_page.py:105
 #: ../ui/upgrade_page.py:330
@@ -148,7 +149,7 @@ msgstr "Última actualización: "
 #: ../ui/upgrade_page.py:134 ../ui/upgrade_page.py:206
 #, python-format
 msgid "Unwatched (%s)"
-msgstr "Yo no sigues (%s)"
+msgstr "Sin supervisiòn (%s)"
 
 #: ../ui/upgrade_page.py:180
 msgid "Upgrade select items"
@@ -162,15 +163,16 @@ msgstr "%s aplicaciones son actualizables"
 #: ../ui/upgrade_page.py:270
 #, python-format
 msgid "%s applications are not being watched"
-msgstr "%s aplicaciones disponibles para seguir"
+msgstr "%s aplicaciones no están siendo supervisadas"
 
 #: ../ui/upgrade_page.py:287
 msgid "Shut down the computer after upgrade"
-msgstr ""
+msgstr "Apagar el ordenador después de actualizar"
 
 #: ../ui/upgrade_page.py:299
 msgid "Deepin System Settings is not installed, this function is not work!"
 msgstr ""
+"Configuración del Sistema Deepin no esta instalado, esta función no trabaja!"
 
 #: ../ui/upgrade_page.py:318
 msgid "Downloading updates"
@@ -182,7 +184,7 @@ msgstr "Listado-Última actualización: "
 
 #: ../ui/upgrade_page.py:335
 msgid "The source mirror: "
-msgstr "Mirror de descarga: "
+msgstr "La replica del código fuente: "
 
 #: ../ui/upgrade_page.py:389
 msgid "Failed to download updates"
@@ -533,7 +535,7 @@ msgstr "Tamaño: %s"
 
 #: ../ui/detail_page.py:600
 msgid "Powered by 又拍云存储"
-msgstr ""
+msgstr "Powered by 又拍云存储"
 
 #: ../ui/category_info.py:26
 msgid "Internet"
@@ -549,7 +551,7 @@ msgstr "Mensajería"
 
 #: ../ui/category_info.py:29
 msgid "Email"
-msgstr "Correo Web"
+msgstr "Correo Electrónico"
 
 #: ../ui/category_info.py:30
 msgid "File transfer"
@@ -597,7 +599,7 @@ msgstr "Mezclas"
 
 #: ../ui/category_info.py:41
 msgid "Player"
-msgstr "Reproductores"
+msgstr "Reproductor"
 
 #: ../ui/category_info.py:42
 msgid "Recorder"
@@ -843,12 +845,12 @@ msgstr "%s: %s aplicaciones relacionadas"
 #: ../ui/software_center.py:130
 #, python-format
 msgid "%s haven't any desktop file"
-msgstr ""
+msgstr "%s no hay ningún archivo en el escritorio"
 
 #: ../ui/software_center.py:138
 #, python-format
 msgid "%s: request for starting applications sent"
-msgstr ""
+msgstr "%s solicitud para empezar a enviar aplicaciones"
 
 #: ../ui/software_center.py:199
 msgid "Sending comment..."
@@ -856,7 +858,7 @@ msgstr "Comentando..."
 
 #: ../ui/software_center.py:203
 msgid "You have already sent a comment ;)"
-msgstr "Ya comentaste antes ;)"
+msgstr "Ya has enviado un comentario ;)"
 
 #: ../ui/software_center.py:209
 msgid "Comment was successful. Thanks for your involvement. :)"
@@ -870,7 +872,7 @@ msgstr ""
 #: ../ui/software_center.py:389
 #, python-format
 msgid "Uninstall %s Successfully."
-msgstr "%s desinstalada."
+msgstr "%s Desinstalada Satisfactoriamente."
 
 #: ../ui/software_center.py:389 ../ui/software_center.py:795
 msgid "Uninstall"
@@ -879,7 +881,7 @@ msgstr "Desinstalar"
 #: ../ui/software_center.py:395
 #, python-format
 msgid "%s packages upgrade Successfully."
-msgstr "%s actualizadas satisfactoriamente."
+msgstr "%s paquetes actualizados satisfactoriamente."
 
 #: ../ui/software_center.py:395 ../ui/software_center.py:794
 msgid "Upgrade"
