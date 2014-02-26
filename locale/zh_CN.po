@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"POT-Creation-Date: 2014-02-25 11:21+0800\n"
 "PO-Revision-Date: 2013-12-06 04:04+0000\n"
 "Last-Translator: iceleaf916 <iceleaf916@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/deepin-"
@@ -30,7 +30,7 @@ msgstr "%s款软件正在安装"
 msgid "Analyzing dependencies"
 msgstr "分析依赖中"
 
-#: ../ui/install_page.py:480 ../ui/detail_page.py:436 ../ui/search_page.py:285
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
 msgstr "已安装"
 
@@ -77,7 +77,7 @@ msgstr "%s: %s款软件"
 msgid "%s > %s : %s applications"
 msgstr "%s > %s: %s款软件"
 
-#: ../ui/home_page.py:730 ../ui/software_center.py:793
+#: ../ui/home_page.py:730 ../ui/software_center.py:802
 msgid "Home"
 msgstr "首页推荐"
 
@@ -356,7 +356,7 @@ msgstr "未命名"
 msgid "Unknown mirror url"
 msgstr "未知源地址"
 
-#: ../ui/preference.py:468 ../ui/software_center.py:737
+#: ../ui/preference.py:468 ../ui/software_center.py:746
 msgid "Deepin Software Center"
 msgstr "软件中心"
 
@@ -491,7 +491,7 @@ msgstr "总排行Top25"
 msgid "Also in the category..."
 msgstr "同类热门推荐"
 
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:483
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
 msgid "Loading comments..."
 msgstr "正在加载评论..."
 
@@ -500,33 +500,33 @@ msgstr "正在加载评论..."
 msgid "Download: %s"
 msgstr "下载：%s"
 
-#: ../ui/detail_page.py:389
+#: ../ui/detail_page.py:383
 msgid "Category: "
 msgstr "类别："
 
-#: ../ui/detail_page.py:393
+#: ../ui/detail_page.py:387
 #, python-format
 msgid "Version: %s"
 msgstr "版本：%s"
 
-#: ../ui/detail_page.py:394
+#: ../ui/detail_page.py:388
 msgid "Download: 0"
 msgstr "下载：0"
 
-#: ../ui/detail_page.py:395
+#: ../ui/detail_page.py:389
 msgid "Size: calculating..."
 msgstr "大小：计算中..."
 
-#: ../ui/detail_page.py:399
+#: ../ui/detail_page.py:393
 msgid "Visit Homepage"
 msgstr "访问首页"
 
-#: ../ui/detail_page.py:460
+#: ../ui/detail_page.py:454
 #, python-format
 msgid "Size: %s"
 msgstr "大小：%s"
 
-#: ../ui/detail_page.py:600
+#: ../ui/detail_page.py:594
 msgid "Powered by 又拍云存储"
 msgstr "Powered by 又拍云存储"
 
@@ -835,136 +835,135 @@ msgstr "文本编辑器"
 msgid "%s: %s matched applications"
 msgstr "%s: 搜索到%s款软件"
 
-#: ../ui/software_center.py:130
+#: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
 msgstr "%s 没有桌面启动文件"
 
-#: ../ui/software_center.py:138
+#: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
 msgstr "%s: 已经发送启动请求"
 
-#: ../ui/software_center.py:199
+#: ../ui/software_center.py:198
 msgid "Sending comment..."
 msgstr "发送评分..."
 
-#: ../ui/software_center.py:203
+#: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
 msgstr "您已经评过分了哟！ ;)"
 
-#: ../ui/software_center.py:209
+#: ../ui/software_center.py:208
 msgid "Comment was successful. Thanks for your involvement. :)"
 msgstr "评分成功， 感谢您的参与！ :)"
 
-#: ../ui/software_center.py:225
+#: ../ui/software_center.py:224
 msgid "Comment was failed. Please check your network connection!"
 msgstr "评分失败，请检查您的网络连接！"
 
-#: ../ui/software_center.py:389
+#: ../ui/software_center.py:388
 #, python-format
 msgid "Uninstall %s Successfully."
 msgstr "卸载%s成功啦~"
 
-#: ../ui/software_center.py:389 ../ui/software_center.py:795
+#: ../ui/software_center.py:388 ../ui/software_center.py:804
 msgid "Uninstall"
 msgstr "卸载软件"
 
-#: ../ui/software_center.py:395
+#: ../ui/software_center.py:394
 #, python-format
 msgid "%s packages upgrade Successfully."
 msgstr "%s个软件包升级成功啦～"
 
-#: ../ui/software_center.py:395 ../ui/software_center.py:794
+#: ../ui/software_center.py:394 ../ui/software_center.py:803
 msgid "Upgrade"
 msgstr "系统升级"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 #, python-format
 msgid "Install %s Successfully."
 msgstr "安装%s完成啦~"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 msgid "Install"
 msgstr "安装软件"
 
-#: ../ui/software_center.py:436
+#: ../ui/software_center.py:435
 msgid "Generating local package database..."
 msgstr "正在生成软件列表数据库..."
 
-#: ../ui/software_center.py:444
+#: ../ui/software_center.py:443
 msgid "Successfully refreshed applications lists."
 msgstr "软件列表更新完成!"
 
-#: ../ui/software_center.py:456
+#: ../ui/software_center.py:455
 msgid "Failed to refresh applications lists."
 msgstr "软件列表更新失败!"
 
-#: ../ui/software_center.py:457
+#: ../ui/software_center.py:456
 msgid "Try again"
 msgstr "重试"
 
-#: ../ui/software_center.py:467
+#: ../ui/software_center.py:466
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
 msgstr "分析%s依赖出现问题， 安装停止"
 
-#: ../ui/software_center.py:470
+#: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
 msgstr "分析%s依赖出现问题， 升级停止"
 
-#: ../ui/software_center.py:475
+#: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
 msgstr "请求软件包\"%s\"在当前系统软件列表中不存在。"
 
-#: ../ui/software_center.py:476
+#: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
 msgstr "刷新软件列表后重试"
 
-#: ../ui/software_center.py:660
-msgid "Information"
-msgstr "信息"
-
-#: ../ui/software_center.py:774
+#: ../ui/software_center.py:783
 msgid "Join us"
 msgstr "加入我们"
 
-#: ../ui/software_center.py:796
+#: ../ui/software_center.py:805
 msgid "Install Manage"
 msgstr "安装管理"
 
-#: ../ui/software_center.py:820
+#: ../ui/software_center.py:829
 msgid "Refresh applications lists"
 msgstr "更新软件列表"
 
-#: ../ui/software_center.py:821
+#: ../ui/software_center.py:830
 msgid "Open download directory"
 msgstr "打开下载目录"
 
-#: ../ui/software_center.py:822
+#: ../ui/software_center.py:831
 msgid "Clear up cached packages"
 msgstr "智能清理下载文件"
 
-#: ../ui/software_center.py:823
+#: ../ui/software_center.py:832
 msgid "View new features"
 msgstr "显示新功能"
 
-#: ../ui/software_center.py:824
+#: ../ui/software_center.py:833
 msgid "Preferences"
 msgstr "选项"
 
-#: ../ui/software_center.py:825
+#: ../ui/software_center.py:834
 msgid "Quit"
 msgstr "退出"
 
-#: ../ui/software_center.py:1141
+#: ../ui/software_center.py:1150
 #, python-format
 msgid "You have cleared up %s pakcages and saved %s of space"
 msgstr "恭喜您清理了%s个软件包，共节约了%s空间"
 
-#: ../ui/software_center.py:1143
+#: ../ui/software_center.py:1152
 msgid "Your system is clean."
 msgstr "您的系统已经很干净了，不需要清理."
+
+#~ msgid "Information"
+#~ msgstr "信息"

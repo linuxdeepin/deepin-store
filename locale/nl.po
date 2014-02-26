@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# jasper580 <jasperweyne@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-10 14:54+0800\n"
-"PO-Revision-Date: 2014-02-10 02:06+0000\n"
-"Last-Translator: cxbii <mycxbii@gmail.com>\n"
+"POT-Creation-Date: 2014-02-25 11:21+0800\n"
+"PO-Revision-Date: 2014-02-10 10:04+0000\n"
+"Last-Translator: jasper580 <jasperweyne@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/deepin-software-"
 "center/language/nl/)\n"
 "Language: nl\n"
@@ -28,7 +29,7 @@ msgstr ""
 msgid "Analyzing dependencies"
 msgstr ""
 
-#: ../ui/install_page.py:480 ../ui/detail_page.py:436 ../ui/search_page.py:285
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
 msgstr ""
 
@@ -68,16 +69,16 @@ msgstr ""
 #: ../ui/home_page.py:485
 #, python-format
 msgid "%s: %s applications"
-msgstr ""
+msgstr "%s: %s applicaties"
 
 #: ../ui/home_page.py:674
 #, python-format
 msgid "%s > %s : %s applications"
-msgstr ""
+msgstr "%s > %s : %s applicaties"
 
-#: ../ui/home_page.py:730 ../ui/software_center.py:793
+#: ../ui/home_page.py:730 ../ui/software_center.py:802
 msgid "Home"
-msgstr ""
+msgstr "Thuis"
 
 #: ../ui/home_page.py:770
 msgid "Hot applications"
@@ -85,7 +86,7 @@ msgstr ""
 
 #: ../ui/home_page.py:770
 msgid "Topics"
-msgstr ""
+msgstr "Onderwerpen"
 
 #: ../ui/home_page.py:770
 msgid "Download rank"
@@ -352,9 +353,9 @@ msgstr ""
 msgid "Unknown mirror url"
 msgstr ""
 
-#: ../ui/preference.py:468 ../ui/software_center.py:737
+#: ../ui/preference.py:468 ../ui/software_center.py:746
 msgid "Deepin Software Center"
-msgstr ""
+msgstr "Deepin Software Center"
 
 #: ../ui/preference.py:473
 msgid "Version:"
@@ -482,7 +483,7 @@ msgstr ""
 msgid "Also in the category..."
 msgstr ""
 
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:483
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
 msgid "Loading comments..."
 msgstr ""
 
@@ -491,33 +492,33 @@ msgstr ""
 msgid "Download: %s"
 msgstr ""
 
-#: ../ui/detail_page.py:389
+#: ../ui/detail_page.py:383
 msgid "Category: "
 msgstr ""
 
-#: ../ui/detail_page.py:393
+#: ../ui/detail_page.py:387
 #, python-format
 msgid "Version: %s"
 msgstr ""
 
-#: ../ui/detail_page.py:394
+#: ../ui/detail_page.py:388
 msgid "Download: 0"
 msgstr ""
 
-#: ../ui/detail_page.py:395
+#: ../ui/detail_page.py:389
 msgid "Size: calculating..."
 msgstr ""
 
-#: ../ui/detail_page.py:399
+#: ../ui/detail_page.py:393
 msgid "Visit Homepage"
 msgstr ""
 
-#: ../ui/detail_page.py:460
+#: ../ui/detail_page.py:454
 #, python-format
 msgid "Size: %s"
 msgstr ""
 
-#: ../ui/detail_page.py:600
+#: ../ui/detail_page.py:594
 msgid "Powered by 又拍云存储"
 msgstr ""
 
@@ -826,136 +827,138 @@ msgstr ""
 msgid "%s: %s matched applications"
 msgstr ""
 
-#: ../ui/software_center.py:130
+#: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
-msgstr ""
+msgstr "%s heeft geen desktop bestand"
 
-#: ../ui/software_center.py:138
+#: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
-msgstr ""
+msgstr "%s: verzoek om applicaties te starten verzonden"
 
-#: ../ui/software_center.py:199
+#: ../ui/software_center.py:198
 msgid "Sending comment..."
-msgstr ""
+msgstr "Commentaar aan het versturen..."
 
-#: ../ui/software_center.py:203
+#: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
-msgstr ""
+msgstr "U heeft al commentaar verstuurd ;)"
 
-#: ../ui/software_center.py:209
+#: ../ui/software_center.py:208
 msgid "Comment was successful. Thanks for your involvement. :)"
-msgstr ""
+msgstr "Commentaar sturen succesvol. Bedankt voor uw betrokkenheid. :)"
 
-#: ../ui/software_center.py:225
+#: ../ui/software_center.py:224
 msgid "Comment was failed. Please check your network connection!"
 msgstr ""
+"Commentaar sturen gefaald. Controleer uw netwerkverbinding alstublieft!"
 
-#: ../ui/software_center.py:389
+#: ../ui/software_center.py:388
 #, python-format
 msgid "Uninstall %s Successfully."
-msgstr ""
+msgstr "Verwijderen %s Succesvol."
 
-#: ../ui/software_center.py:389 ../ui/software_center.py:795
+#: ../ui/software_center.py:388 ../ui/software_center.py:804
 msgid "Uninstall"
-msgstr ""
+msgstr "Verwijder"
 
-#: ../ui/software_center.py:395
+#: ../ui/software_center.py:394
 #, python-format
 msgid "%s packages upgrade Successfully."
-msgstr ""
+msgstr "%s pakketten succesvol geupgrade."
 
-#: ../ui/software_center.py:395 ../ui/software_center.py:794
+#: ../ui/software_center.py:394 ../ui/software_center.py:803
 msgid "Upgrade"
-msgstr ""
+msgstr "Upgrade"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 #, python-format
 msgid "Install %s Successfully."
-msgstr ""
+msgstr "Installatie %s succesvol."
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 msgid "Install"
-msgstr ""
+msgstr "Installeer"
 
-#: ../ui/software_center.py:436
+#: ../ui/software_center.py:435
 msgid "Generating local package database..."
-msgstr ""
+msgstr "Genereren van lokale pakketten database..."
 
-#: ../ui/software_center.py:444
+#: ../ui/software_center.py:443
 msgid "Successfully refreshed applications lists."
-msgstr ""
+msgstr "Verversen van applicatie lijsten succesvol."
+
+#: ../ui/software_center.py:455
+msgid "Failed to refresh applications lists."
+msgstr "Verversen van applicatie lijsten gefaald."
 
 #: ../ui/software_center.py:456
-msgid "Failed to refresh applications lists."
-msgstr ""
-
-#: ../ui/software_center.py:457
 msgid "Try again"
-msgstr ""
+msgstr "Probeer opnieuw"
 
-#: ../ui/software_center.py:467
+#: ../ui/software_center.py:466
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
 msgstr ""
+"Probleem bij analyseren van afhankelijkheden voor %s. Installatie afgebroken"
 
-#: ../ui/software_center.py:470
+#: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
 msgstr ""
+"Probleem bij analyseren van afhankelijkheden voor %s. Upgrade afgebroken"
 
-#: ../ui/software_center.py:475
+#: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
-msgstr ""
+msgstr "Het gevraagde pakket \"%s\" is niet gevonden in de pakketten lijst."
 
-#: ../ui/software_center.py:476
+#: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
-msgstr ""
+msgstr "Ververs de pakketten lijst en probeer opnieuw."
 
-#: ../ui/software_center.py:660
-msgid "Information"
-msgstr ""
-
-#: ../ui/software_center.py:774
+#: ../ui/software_center.py:783
 msgid "Join us"
-msgstr ""
+msgstr "Doe mee"
 
-#: ../ui/software_center.py:796
+#: ../ui/software_center.py:805
 msgid "Install Manage"
-msgstr ""
+msgstr "Installatie Beheerder"
 
-#: ../ui/software_center.py:820
+#: ../ui/software_center.py:829
 msgid "Refresh applications lists"
-msgstr ""
+msgstr "Ververs applicatie lijsten"
 
-#: ../ui/software_center.py:821
+#: ../ui/software_center.py:830
 msgid "Open download directory"
-msgstr ""
+msgstr "Open download map"
 
-#: ../ui/software_center.py:822
+#: ../ui/software_center.py:831
 msgid "Clear up cached packages"
-msgstr ""
+msgstr "Schoon gecachede pakketten op"
 
-#: ../ui/software_center.py:823
+#: ../ui/software_center.py:832
 msgid "View new features"
-msgstr ""
+msgstr "Bekijk nieuwe functies"
 
-#: ../ui/software_center.py:824
+#: ../ui/software_center.py:833
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeuren"
 
-#: ../ui/software_center.py:825
+#: ../ui/software_center.py:834
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
-#: ../ui/software_center.py:1141
+#: ../ui/software_center.py:1150
 #, python-format
 msgid "You have cleared up %s pakcages and saved %s of space"
-msgstr ""
+msgstr "U heeft %s pakketten opgeschoond en %s ruimte vrijgemaakt"
 
-#: ../ui/software_center.py:1143
+#: ../ui/software_center.py:1152
 msgid "Your system is clean."
-msgstr ""
+msgstr "Uw systeem is opgeschoond"
+
+#~ msgid "Information"
+#~ msgstr "Informatie"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"POT-Creation-Date: 2014-02-25 11:21+0800\n"
 "PO-Revision-Date: 2014-01-12 13:15+0000\n"
 "Last-Translator: Snubbi <carl@manjaro.dk>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/deepin-software-"
@@ -29,7 +29,7 @@ msgstr "%s programmer bliver installeret"
 msgid "Analyzing dependencies"
 msgstr " Analyserer afhængigheder"
 
-#: ../ui/install_page.py:480 ../ui/detail_page.py:436 ../ui/search_page.py:285
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
 msgstr "Succesfuldt installeret"
 
@@ -76,7 +76,7 @@ msgstr "%s: %s programmer"
 msgid "%s > %s : %s applications"
 msgstr "%s > %s : %s programmer"
 
-#: ../ui/home_page.py:730 ../ui/software_center.py:793
+#: ../ui/home_page.py:730 ../ui/software_center.py:802
 msgid "Home"
 msgstr "Hjem"
 
@@ -358,7 +358,7 @@ msgstr "Unavngivet"
 msgid "Unknown mirror url"
 msgstr "Ukendt mirror url"
 
-#: ../ui/preference.py:468 ../ui/software_center.py:737
+#: ../ui/preference.py:468 ../ui/software_center.py:746
 msgid "Deepin Software Center"
 msgstr "Deepin Software Center"
 
@@ -497,7 +497,7 @@ msgstr "Top25  nogensinde"
 msgid "Also in the category..."
 msgstr "Også i kategorien..."
 
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:483
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
 msgid "Loading comments..."
 msgstr "Indlæser kommenterer..."
 
@@ -506,33 +506,33 @@ msgstr "Indlæser kommenterer..."
 msgid "Download: %s"
 msgstr "Download: %s"
 
-#: ../ui/detail_page.py:389
+#: ../ui/detail_page.py:383
 msgid "Category: "
 msgstr "Kategori:"
 
-#: ../ui/detail_page.py:393
+#: ../ui/detail_page.py:387
 #, python-format
 msgid "Version: %s"
 msgstr "Version: %s"
 
-#: ../ui/detail_page.py:394
+#: ../ui/detail_page.py:388
 msgid "Download: 0"
 msgstr "Download: 0"
 
-#: ../ui/detail_page.py:395
+#: ../ui/detail_page.py:389
 msgid "Size: calculating..."
 msgstr "Størelse: beregner..."
 
-#: ../ui/detail_page.py:399
+#: ../ui/detail_page.py:393
 msgid "Visit Homepage"
 msgstr "Besøg Hjemmeside"
 
-#: ../ui/detail_page.py:460
+#: ../ui/detail_page.py:454
 #, python-format
 msgid "Size: %s"
 msgstr "Størelse: %s"
 
-#: ../ui/detail_page.py:600
+#: ../ui/detail_page.py:594
 msgid "Powered by 又拍云存储"
 msgstr "Drevet af 又拍云存储"
 
@@ -841,77 +841,77 @@ msgstr "Tekst editor"
 msgid "%s: %s matched applications"
 msgstr "%s: %s matchende programmer"
 
-#: ../ui/software_center.py:130
+#: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
 msgstr "%s har ikke nogen desktopfil"
 
-#: ../ui/software_center.py:138
+#: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
 msgstr "%s: anmodning om at starte program hentning"
 
-#: ../ui/software_center.py:199
+#: ../ui/software_center.py:198
 msgid "Sending comment..."
 msgstr "Sender kommentar..."
 
-#: ../ui/software_center.py:203
+#: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
 msgstr "Du har allerede sendt en kommentar ;)"
 
-#: ../ui/software_center.py:209
+#: ../ui/software_center.py:208
 msgid "Comment was successful. Thanks for your involvement. :)"
 msgstr "Kommentar var vellykket. Tak for din involvering :)"
 
-#: ../ui/software_center.py:225
+#: ../ui/software_center.py:224
 msgid "Comment was failed. Please check your network connection!"
 msgstr ""
 "Afsendelse af kommentar fejlede. Tjek venligst din internet forbindelse!"
 
-#: ../ui/software_center.py:389
+#: ../ui/software_center.py:388
 #, python-format
 msgid "Uninstall %s Successfully."
 msgstr "Afinstallering %s Vellykket."
 
-#: ../ui/software_center.py:389 ../ui/software_center.py:795
+#: ../ui/software_center.py:388 ../ui/software_center.py:804
 msgid "Uninstall"
 msgstr "Afinstaller"
 
-#: ../ui/software_center.py:395
+#: ../ui/software_center.py:394
 #, python-format
 msgid "%s packages upgrade Successfully."
 msgstr "%s pakker opgraderet vellykket."
 
-#: ../ui/software_center.py:395 ../ui/software_center.py:794
+#: ../ui/software_center.py:394 ../ui/software_center.py:803
 msgid "Upgrade"
 msgstr "Opgrader"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 #, python-format
 msgid "Install %s Successfully."
 msgstr "Installering %s Vellykket."
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 msgid "Install"
 msgstr "Installer"
 
-#: ../ui/software_center.py:436
+#: ../ui/software_center.py:435
 msgid "Generating local package database..."
 msgstr "Genererer lokal pakkedatabase..."
 
-#: ../ui/software_center.py:444
+#: ../ui/software_center.py:443
 msgid "Successfully refreshed applications lists."
 msgstr "Succesfuldt opdateret program-lister."
 
-#: ../ui/software_center.py:456
+#: ../ui/software_center.py:455
 msgid "Failed to refresh applications lists."
 msgstr "Fejlede i opdatering af program-lister."
 
-#: ../ui/software_center.py:457
+#: ../ui/software_center.py:456
 msgid "Try again"
 msgstr "Prøv igen"
 
-#: ../ui/software_center.py:467
+#: ../ui/software_center.py:466
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
@@ -919,62 +919,61 @@ msgstr ""
 "Problem forekom under analysering af afhængiheder for %s. Installation "
 "afbrudt"
 
-#: ../ui/software_center.py:470
+#: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
 msgstr ""
 "Problem forekom under analysering af afhængiheder for %s. Opgradering afbrudt"
 
-#: ../ui/software_center.py:475
+#: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
 msgstr "Den udbedte pakke \"%s\" blev ikke fundet i pakkelisten."
 
-#: ../ui/software_center.py:476
+#: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
 msgstr "Genopfrisk pakkelisten og prøv igen. "
 
-#: ../ui/software_center.py:660
-msgid "Information"
-msgstr "Information"
-
-#: ../ui/software_center.py:774
+#: ../ui/software_center.py:783
 msgid "Join us"
 msgstr "Mød os"
 
-#: ../ui/software_center.py:796
+#: ../ui/software_center.py:805
 msgid "Install Manage"
 msgstr "Installering Håndter"
 
-#: ../ui/software_center.py:820
+#: ../ui/software_center.py:829
 msgid "Refresh applications lists"
 msgstr "Genofrisk program-lister"
 
-#: ../ui/software_center.py:821
+#: ../ui/software_center.py:830
 msgid "Open download directory"
 msgstr "Åbn download filkatalog"
 
-#: ../ui/software_center.py:822
+#: ../ui/software_center.py:831
 msgid "Clear up cached packages"
 msgstr "Fjern opgemte pakker"
 
-#: ../ui/software_center.py:823
+#: ../ui/software_center.py:832
 msgid "View new features"
 msgstr "Se nye funktioner"
 
-#: ../ui/software_center.py:824
+#: ../ui/software_center.py:833
 msgid "Preferences"
 msgstr "Præferencer"
 
-#: ../ui/software_center.py:825
+#: ../ui/software_center.py:834
 msgid "Quit"
 msgstr "Afslut"
 
-#: ../ui/software_center.py:1141
+#: ../ui/software_center.py:1150
 #, python-format
 msgid "You have cleared up %s pakcages and saved %s of space"
 msgstr "Du har fjernet  %s pakker og frigivet %s harddiskplads"
 
-#: ../ui/software_center.py:1143
+#: ../ui/software_center.py:1152
 msgid "Your system is clean."
 msgstr "Dit system er rent."
+
+#~ msgid "Information"
+#~ msgstr "Information"

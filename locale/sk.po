@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"POT-Creation-Date: 2014-02-25 11:21+0800\n"
 "PO-Revision-Date: 2014-01-03 16:41+0000\n"
 "Last-Translator: ballmet <emkohencel@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/deepin-software-"
@@ -29,7 +29,7 @@ msgstr "Bolo nainštalovaných %s aplikácií"
 msgid "Analyzing dependencies"
 msgstr "Analyzujem závislosti"
 
-#: ../ui/install_page.py:480 ../ui/detail_page.py:436 ../ui/search_page.py:285
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
 msgstr "Úspešne nainštalované"
 
@@ -76,7 +76,7 @@ msgstr "%s: %s programov"
 msgid "%s > %s : %s applications"
 msgstr "%s > %s : %s programov"
 
-#: ../ui/home_page.py:730 ../ui/software_center.py:793
+#: ../ui/home_page.py:730 ../ui/software_center.py:802
 msgid "Home"
 msgstr "Domovská zložka"
 
@@ -356,7 +356,7 @@ msgstr "Bez názvu"
 msgid "Unknown mirror url"
 msgstr "Neznáma URL adresa zrkadla"
 
-#: ../ui/preference.py:468 ../ui/software_center.py:737
+#: ../ui/preference.py:468 ../ui/software_center.py:746
 msgid "Deepin Software Center"
 msgstr "Centrum softvéru"
 
@@ -496,7 +496,7 @@ msgstr "TOP 25 po celý čas"
 msgid "Also in the category..."
 msgstr "Tiež v skupine..."
 
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:483
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
 msgid "Loading comments..."
 msgstr "Načítavam komentáre..."
 
@@ -505,33 +505,33 @@ msgstr "Načítavam komentáre..."
 msgid "Download: %s"
 msgstr "Stiahnuté: %s"
 
-#: ../ui/detail_page.py:389
+#: ../ui/detail_page.py:383
 msgid "Category: "
 msgstr "Kategória:"
 
-#: ../ui/detail_page.py:393
+#: ../ui/detail_page.py:387
 #, python-format
 msgid "Version: %s"
 msgstr "Verzia: %s"
 
-#: ../ui/detail_page.py:394
+#: ../ui/detail_page.py:388
 msgid "Download: 0"
 msgstr "Sťahovanie: 0"
 
-#: ../ui/detail_page.py:395
+#: ../ui/detail_page.py:389
 msgid "Size: calculating..."
 msgstr "Veľkosť: počíta sa..."
 
-#: ../ui/detail_page.py:399
+#: ../ui/detail_page.py:393
 msgid "Visit Homepage"
 msgstr "Zobraziť domovskú stránku"
 
-#: ../ui/detail_page.py:460
+#: ../ui/detail_page.py:454
 #, python-format
 msgid "Size: %s"
 msgstr "Veľkosť: %s"
 
-#: ../ui/detail_page.py:600
+#: ../ui/detail_page.py:594
 msgid "Powered by 又拍云存储"
 msgstr "Poháňané 又拍云存储"
 
@@ -840,140 +840,139 @@ msgstr "Textový editor"
 msgid "%s: %s matched applications"
 msgstr "%s: %s odpovedajúcich programov"
 
-#: ../ui/software_center.py:130
+#: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
 msgstr "%s nemá žiadny súbor plochy"
 
-#: ../ui/software_center.py:138
+#: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
 msgstr "%s: žiada sa o spustenie poslaných programov"
 
-#: ../ui/software_center.py:199
+#: ../ui/software_center.py:198
 msgid "Sending comment..."
 msgstr "Poznámka sa posiela..."
 
-#: ../ui/software_center.py:203
+#: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
 msgstr "Poznámku si už poslal ;-)"
 
-#: ../ui/software_center.py:209
+#: ../ui/software_center.py:208
 msgid "Comment was successful. Thanks for your involvement. :)"
 msgstr "Poznámku sa podarilo pridať. Ďakujeme vám za zapojenie. ;)"
 
-#: ../ui/software_center.py:225
+#: ../ui/software_center.py:224
 msgid "Comment was failed. Please check your network connection!"
 msgstr ""
 "Poznámku sa nepodarilo pridať. Prosím, skontrolujte svoje internetové "
 "pripojenie!"
 
-#: ../ui/software_center.py:389
+#: ../ui/software_center.py:388
 #, python-format
 msgid "Uninstall %s Successfully."
 msgstr "Odinštalácia %s bola úspěšná."
 
-#: ../ui/software_center.py:389 ../ui/software_center.py:795
+#: ../ui/software_center.py:388 ../ui/software_center.py:804
 msgid "Uninstall"
 msgstr "Odinštalovať"
 
-#: ../ui/software_center.py:395
+#: ../ui/software_center.py:394
 #, python-format
 msgid "%s packages upgrade Successfully."
 msgstr "Povýšenie %s programov bolo úspešné."
 
-#: ../ui/software_center.py:395 ../ui/software_center.py:794
+#: ../ui/software_center.py:394 ../ui/software_center.py:803
 msgid "Upgrade"
 msgstr "Povýšiť"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 #, python-format
 msgid "Install %s Successfully."
 msgstr "Inštalácia %s bola úspešná."
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 msgid "Install"
 msgstr "Inštalovať"
 
-#: ../ui/software_center.py:436
+#: ../ui/software_center.py:435
 msgid "Generating local package database..."
 msgstr "Vytvára sa miesta databáza balíčkov..."
 
-#: ../ui/software_center.py:444
+#: ../ui/software_center.py:443
 msgid "Successfully refreshed applications lists."
 msgstr "Zoznam programov bol úspešne obnovený."
 
-#: ../ui/software_center.py:456
+#: ../ui/software_center.py:455
 msgid "Failed to refresh applications lists."
 msgstr "Nepodarilo sa obnoviť zoznam aplikácií."
 
-#: ../ui/software_center.py:457
+#: ../ui/software_center.py:456
 msgid "Try again"
 msgstr "Skúste to znovu"
 
-#: ../ui/software_center.py:467
+#: ../ui/software_center.py:466
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
 msgstr ""
 "Pri zisťovaní závislostí pre %s sa vyskytli chyby. Inštalácia bola zrušená"
 
-#: ../ui/software_center.py:470
+#: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
 msgstr ""
 "Pri zisťovaní závislostí pre %s sa vyskytli chyby. Povýšenie bolo zrušené"
 
-#: ../ui/software_center.py:475
+#: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
 msgstr "Požadovaný balíček \"%s\" nebol nájdený v zozname balíkov."
 
-#: ../ui/software_center.py:476
+#: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
 msgstr "Obnovte zoznam balíkov a skúste to znovu."
 
-#: ../ui/software_center.py:660
-msgid "Information"
-msgstr "Informácie"
-
-#: ../ui/software_center.py:774
+#: ../ui/software_center.py:783
 msgid "Join us"
 msgstr "Pripojte sa k nám"
 
-#: ../ui/software_center.py:796
+#: ../ui/software_center.py:805
 msgid "Install Manage"
 msgstr "Správa inštalácie"
 
-#: ../ui/software_center.py:820
+#: ../ui/software_center.py:829
 msgid "Refresh applications lists"
 msgstr "Obnoviť zoznam balíkov"
 
-#: ../ui/software_center.py:821
+#: ../ui/software_center.py:830
 msgid "Open download directory"
 msgstr "Otvoriť adresár pre sťahovanie"
 
-#: ../ui/software_center.py:822
+#: ../ui/software_center.py:831
 msgid "Clear up cached packages"
 msgstr "Odstrániť balíky vo vyrovnávacej pamäti"
 
-#: ../ui/software_center.py:823
+#: ../ui/software_center.py:832
 msgid "View new features"
 msgstr "Pozrite si nové fukcie"
 
-#: ../ui/software_center.py:824
+#: ../ui/software_center.py:833
 msgid "Preferences"
 msgstr "Nastavenia"
 
-#: ../ui/software_center.py:825
+#: ../ui/software_center.py:834
 msgid "Quit"
 msgstr "Zrušiť"
 
-#: ../ui/software_center.py:1141
+#: ../ui/software_center.py:1150
 #, python-format
 msgid "You have cleared up %s pakcages and saved %s of space"
 msgstr "Odstranili ste %s balíčkov a ušetrili %s miesta"
 
-#: ../ui/software_center.py:1143
+#: ../ui/software_center.py:1152
 msgid "Your system is clean."
 msgstr "Váš systém je uprataný."
+
+#~ msgid "Information"
+#~ msgstr "Informácie"

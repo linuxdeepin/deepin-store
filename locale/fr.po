@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-10 14:54+0800\n"
+"POT-Creation-Date: 2014-02-25 11:21+0800\n"
 "PO-Revision-Date: 2014-01-11 11:36+0000\n"
 "Last-Translator: lexross <its4moi@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/deepin-software-"
@@ -33,7 +33,7 @@ msgstr "%s applications sont en cours d'installation"
 msgid "Analyzing dependencies"
 msgstr "Vérification des dépendances"
 
-#: ../ui/install_page.py:480 ../ui/detail_page.py:436 ../ui/search_page.py:285
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
 msgstr "Installé avec succès"
 
@@ -80,7 +80,7 @@ msgstr "%s: %s applications"
 msgid "%s > %s : %s applications"
 msgstr "%s > %s : %s applications"
 
-#: ../ui/home_page.py:730 ../ui/software_center.py:793
+#: ../ui/home_page.py:730 ../ui/software_center.py:802
 msgid "Home"
 msgstr "Accueil"
 
@@ -362,7 +362,7 @@ msgstr "Sans nom"
 msgid "Unknown mirror url"
 msgstr "Lien miroir inconnu"
 
-#: ../ui/preference.py:468 ../ui/software_center.py:737
+#: ../ui/preference.py:468 ../ui/software_center.py:746
 msgid "Deepin Software Center"
 msgstr "Logithèque Deepin"
 
@@ -502,7 +502,7 @@ msgstr "Top 25 Général"
 msgid "Also in the category..."
 msgstr "Déjà dans la catégorie..."
 
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:483
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
 msgid "Loading comments..."
 msgstr "Chargement des commentaires..."
 
@@ -511,33 +511,33 @@ msgstr "Chargement des commentaires..."
 msgid "Download: %s"
 msgstr "Téléchargement: %s"
 
-#: ../ui/detail_page.py:389
+#: ../ui/detail_page.py:383
 msgid "Category: "
 msgstr "Catégorie: "
 
-#: ../ui/detail_page.py:393
+#: ../ui/detail_page.py:387
 #, python-format
 msgid "Version: %s"
 msgstr "Version: %s"
 
-#: ../ui/detail_page.py:394
+#: ../ui/detail_page.py:388
 msgid "Download: 0"
 msgstr "Téléchargement: 0"
 
-#: ../ui/detail_page.py:395
+#: ../ui/detail_page.py:389
 msgid "Size: calculating..."
 msgstr "Je calcule la taille..."
 
-#: ../ui/detail_page.py:399
+#: ../ui/detail_page.py:393
 msgid "Visit Homepage"
 msgstr "Accéder à la page d'accueil"
 
-#: ../ui/detail_page.py:460
+#: ../ui/detail_page.py:454
 #, python-format
 msgid "Size: %s"
 msgstr "Taille: %s"
 
-#: ../ui/detail_page.py:600
+#: ../ui/detail_page.py:594
 msgid "Powered by 又拍云存储"
 msgstr "Crée par"
 
@@ -846,76 +846,76 @@ msgstr "Éditeur de texte"
 msgid "%s: %s matched applications"
 msgstr "%s: %s applications trouvées"
 
-#: ../ui/software_center.py:130
+#: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
 msgstr "%s aucun fichier de bureau"
 
-#: ../ui/software_center.py:138
+#: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
 msgstr "%s: Demande d'exécution de fichier envoyée"
 
-#: ../ui/software_center.py:199
+#: ../ui/software_center.py:198
 msgid "Sending comment..."
 msgstr "Envoi des commentaires"
 
-#: ../ui/software_center.py:203
+#: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
 msgstr "Vous avez déjà envoyé un commentaire ;)"
 
-#: ../ui/software_center.py:209
+#: ../ui/software_center.py:208
 msgid "Comment was successful. Thanks for your involvement. :)"
 msgstr "Commentaire envoyé avec succès. Merci pour votre participation. :)"
 
-#: ../ui/software_center.py:225
+#: ../ui/software_center.py:224
 msgid "Comment was failed. Please check your network connection!"
 msgstr "Commentaire non envoyé. Veuillez vérifier votre connexion réseau!"
 
-#: ../ui/software_center.py:389
+#: ../ui/software_center.py:388
 #, python-format
 msgid "Uninstall %s Successfully."
 msgstr "Désinstallation de %s effectuée."
 
-#: ../ui/software_center.py:389 ../ui/software_center.py:795
+#: ../ui/software_center.py:388 ../ui/software_center.py:804
 msgid "Uninstall"
 msgstr "Désinstaller"
 
-#: ../ui/software_center.py:395
+#: ../ui/software_center.py:394
 #, python-format
 msgid "%s packages upgrade Successfully."
 msgstr "%s mises à jour réussie."
 
-#: ../ui/software_center.py:395 ../ui/software_center.py:794
+#: ../ui/software_center.py:394 ../ui/software_center.py:803
 msgid "Upgrade"
 msgstr "Mettre à jour"
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 #, python-format
 msgid "Install %s Successfully."
 msgstr "Installation de %s réussie."
 
-#: ../ui/software_center.py:398
+#: ../ui/software_center.py:397
 msgid "Install"
 msgstr "Installer"
 
-#: ../ui/software_center.py:436
+#: ../ui/software_center.py:435
 msgid "Generating local package database..."
 msgstr "Actualisation de la base de données des paquets..."
 
-#: ../ui/software_center.py:444
+#: ../ui/software_center.py:443
 msgid "Successfully refreshed applications lists."
 msgstr "Actualisation de la liste des applications réussie."
 
-#: ../ui/software_center.py:456
+#: ../ui/software_center.py:455
 msgid "Failed to refresh applications lists."
 msgstr "Échec de l'actualisation de la liste des applications."
 
-#: ../ui/software_center.py:457
+#: ../ui/software_center.py:456
 msgid "Try again"
 msgstr "Essayer de nouveau"
 
-#: ../ui/software_center.py:467
+#: ../ui/software_center.py:466
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
@@ -923,63 +923,62 @@ msgstr ""
 "Un problème s'est produit lors de l'analyse des dépendances de %s. "
 "Installation annulée"
 
-#: ../ui/software_center.py:470
+#: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
 msgstr ""
 "Un problème s'est produit lors de l'analyse des dépendances de %s. Mise à "
 "jour annulée"
 
-#: ../ui/software_center.py:475
+#: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
 msgstr "Le paquet demandé \"%s\" est introuvable dans la liste."
 
-#: ../ui/software_center.py:476
+#: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
 msgstr "Actualiser la liste des paquets et essayer de nouveau."
 
-#: ../ui/software_center.py:660
-msgid "Information"
-msgstr "Information"
-
-#: ../ui/software_center.py:774
+#: ../ui/software_center.py:783
 msgid "Join us"
 msgstr "Nous rejoindre"
 
-#: ../ui/software_center.py:796
+#: ../ui/software_center.py:805
 msgid "Install Manage"
 msgstr "Gestionnaire d'installations"
 
-#: ../ui/software_center.py:820
+#: ../ui/software_center.py:829
 msgid "Refresh applications lists"
 msgstr "Actualiser la liste des applications"
 
-#: ../ui/software_center.py:821
+#: ../ui/software_center.py:830
 msgid "Open download directory"
 msgstr "Ouvrir le dossier de téléchargements"
 
-#: ../ui/software_center.py:822
+#: ../ui/software_center.py:831
 msgid "Clear up cached packages"
 msgstr "Vider le cache des paquets"
 
-#: ../ui/software_center.py:823
+#: ../ui/software_center.py:832
 msgid "View new features"
 msgstr "Voir les nouvelles fonctionnalités"
 
-#: ../ui/software_center.py:824
+#: ../ui/software_center.py:833
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../ui/software_center.py:825
+#: ../ui/software_center.py:834
 msgid "Quit"
 msgstr "Quitter"
 
-#: ../ui/software_center.py:1141
+#: ../ui/software_center.py:1150
 #, python-format
 msgid "You have cleared up %s pakcages and saved %s of space"
 msgstr "Vous avez enlever les paquets de %s et sauvé %s d'espace disque"
 
-#: ../ui/software_center.py:1143
+#: ../ui/software_center.py:1152
 msgid "Your system is clean."
 msgstr "Votre système est nettoyé."
+
+#~ msgid "Information"
+#~ msgstr "Information"
