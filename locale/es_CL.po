@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 17:18+0800\n"
-"PO-Revision-Date: 2013-12-12 22:18+0000\n"
-"Last-Translator: gamjachib <drios9420@gmail.com>\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
+"PO-Revision-Date: 2014-03-06 13:17+0000\n"
+"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/projects/p/deepin-"
 "software-center/language/es_CL/)\n"
 "Language: es_CL\n"
@@ -18,70 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../ui/detail_page.py:175
-msgid "Also in the category..."
-msgstr "También en la categoría..."
-
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
-msgid "Loading comments..."
-msgstr "Cargando comentarios..."
-
-#: ../ui/detail_page.py:350
-#, python-format
-msgid "Download: %s"
-msgstr "Descarga: %s"
-
-#: ../ui/detail_page.py:383
-msgid "Category: "
-msgstr "Categoría"
-
-#: ../ui/detail_page.py:387
-#, python-format
-msgid "Version: %s"
-msgstr "Versión: %s"
-
-#: ../ui/detail_page.py:388
-msgid "Download: 0"
-msgstr "Descarga: 0"
-
-#: ../ui/detail_page.py:389
-msgid "Size: calculating..."
-msgstr "Tamaño: calculando..."
-
-#: ../ui/detail_page.py:393
-msgid "Visit Homepage"
-msgstr "Visitar sitio web"
-
-#: ../ui/detail_page.py:430 ../ui/install_page.py:480 ../ui/search_page.py:285
-msgid "Successfully installed"
-msgstr ""
-
-#: ../ui/detail_page.py:454
-#, python-format
-msgid "Size: %s"
-msgstr "Tamaño: %s"
-
-#: ../ui/detail_page.py:594
-msgid "Powered by 又拍云存储"
-msgstr "Potenciado por UPYun Cloud Storage (又拍云存储)"
-
-#: ../ui/uninstall_page.py:160
-#, python-format
-msgid "%s applications can be uninstalled"
-msgstr "%s aplicaciones no pueden desinstalarse"
-
-#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
-msgid "Waiting for uninstall"
-msgstr "Esperando la desinstalación"
-
-#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
-msgid "Uninstalling"
-msgstr "Desinstalando"
-
-#: ../ui/uninstall_page.py:568
-msgid "Uninstall successful"
-msgstr "Desinstalación satisfactoria"
 
 #: ../ui/install_page.py:138
 #, python-format
@@ -92,6 +28,10 @@ msgstr "%s aplicaciones se desinstalarán"
 #: ../ui/upgrade_page.py:1588
 msgid "Analyzing dependencies"
 msgstr "Analizando dependencias"
+
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
+msgid "Successfully installed"
+msgstr ""
 
 #: ../ui/install_page.py:598 ../ui/install_page.py:610
 msgid "Download was interrupted"
@@ -126,6 +66,80 @@ msgstr "Instalando"
 msgid "Installation complete"
 msgstr "Instalación completada"
 
+#: ../ui/home_page.py:485
+#, python-format
+msgid "%s: %s applications"
+msgstr ""
+
+#: ../ui/home_page.py:674
+#, python-format
+msgid "%s > %s : %s applications"
+msgstr ""
+
+#: ../ui/home_page.py:730 ../ui/software_center.py:786
+msgid "Home"
+msgstr ""
+
+#: ../ui/home_page.py:770
+msgid "Hot applications"
+msgstr ""
+
+#: ../ui/home_page.py:770
+msgid "Topics"
+msgstr ""
+
+#: ../ui/home_page.py:770
+msgid "Download rank"
+msgstr ""
+
+#: ../ui/utils.py:321
+msgid "Running"
+msgstr "Ejecutando"
+
+#: ../ui/utils.py:322
+msgid "Preparing"
+msgstr "Preparando"
+
+#: ../ui/utils.py:323
+msgid "Unpacking"
+msgstr "Desempaquetando"
+
+#: ../ui/utils.py:324
+msgid "Preparing to configure"
+msgstr "Preparando para configurar"
+
+#: ../ui/utils.py:325
+msgid "Configuring"
+msgstr "Configurando"
+
+#: ../ui/utils.py:326
+msgid "Installed"
+msgstr "Instalado"
+
+#: ../ui/utils.py:336
+msgid "Err"
+msgstr ""
+
+#: ../ui/utils.py:337
+msgid "Ign"
+msgstr ""
+
+#: ../ui/utils.py:338
+msgid "Get"
+msgstr ""
+
+#: ../ui/utils.py:339
+msgid "Hit"
+msgstr ""
+
+#: ../ui/item_render.py:44
+msgid "Unwatch"
+msgstr ""
+
+#: ../ui/item_render.py:46 ../ui/upgrade_page.py:236
+msgid "Watch again"
+msgstr "Ver otra vez"
+
 #: ../ui/upgrade_page.py:76 ../ui/upgrade_page.py:105
 #: ../ui/upgrade_page.py:330
 msgid "Last upgraded time: "
@@ -144,10 +158,6 @@ msgstr "Actualizar los elementos seleccionados"
 #, python-format
 msgid "%s applications are available for upgrade"
 msgstr ""
-
-#: ../ui/upgrade_page.py:236 ../ui/item_render.py:46
-msgid "Watch again"
-msgstr "Ver otra vez"
 
 #: ../ui/upgrade_page.py:270
 #, python-format
@@ -298,6 +308,160 @@ msgstr "Actualizando"
 msgid "Upgrade complete"
 msgstr "Actualización completada"
 
+#: ../ui/widgets.py:66
+msgid "Just now"
+msgstr "Ahora mismo"
+
+#: ../ui/widgets.py:71
+msgid "One minute ago"
+msgstr "Hace un minuto"
+
+#: ../ui/widgets.py:73
+#, python-format
+msgid "%s minutes ago"
+msgstr "Hace %s minutos"
+
+#: ../ui/widgets.py:78
+msgid "One hour ago"
+msgstr "Hace una hora"
+
+#: ../ui/widgets.py:80
+#, python-format
+msgid "%s hours ago"
+msgstr "Hace %s horas"
+
+#: ../ui/widgets.py:84
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: ../ui/widgets.py:295 ../ui/widgets.py:369
+msgid "Click to refresh"
+msgstr "Clic para refrescar"
+
+#: ../ui/widgets.py:462
+msgid "OK"
+msgstr "Aceptar"
+
+#: ../ui/widgets.py:463 ../ui/preference.py:445
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../ui/preference.py:463 ../ui/software_center.py:730
+msgid "Deepin Software Center"
+msgstr ""
+
+#: ../ui/preference.py:468
+msgid "Version:"
+msgstr "Versión:"
+
+#: ../ui/preference.py:485
+msgid ""
+"Deepin Software Center is a commonly used software center on Linux. It "
+"selected more than 2,600 decent applications and features easy installation "
+"and uninstall, software repository and recommended applications. It supports "
+"1-click install, downloading packages with multi-thread and clearing up "
+"cached packages. It provides topics for software introduction and shares "
+"good applications. \n"
+msgstr ""
+
+#: ../ui/preference.py:531
+msgid "General"
+msgstr "General"
+
+#: ../ui/preference.py:532
+msgid "Mirrors"
+msgstr ""
+
+#: ../ui/preference.py:533
+msgid "About"
+msgstr "Información"
+
+#: ../ui/preference.py:555
+msgid "Select mirror"
+msgstr "Elegir mirror"
+
+#: ../ui/preference.py:579
+msgid "Select best mirror"
+msgstr "Elegir el mejor mirror"
+
+#: ../ui/preference.py:580
+msgid ""
+"Please wait. The process will take 30 seconds or more depending on your "
+"network connection"
+msgstr ""
+"Por favor espera. El proceso tomará 30 segundos o más dependiendo de tu "
+"conexión a internet"
+
+#: ../ui/preference.py:642
+msgid ""
+"Test for downloading mirror failed. Please check your network connection."
+msgstr ""
+
+#: ../ui/preference.py:643
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../ui/preference.py:677
+msgid "Update applications lists"
+msgstr "Actualizar lista de aplicaciones"
+
+#: ../ui/preference.py:683
+msgid "Update automatically"
+msgstr "Actualizar automáticamente"
+
+#: ../ui/preference.py:686
+msgid "Time interval: "
+msgstr ""
+
+#: ../ui/preference.py:689
+msgid " hour"
+msgstr "hora"
+
+#: ../ui/preference.py:712
+msgid "Download settings"
+msgstr "Ajustes de descarga"
+
+#: ../ui/preference.py:718
+msgid "Max download task number: "
+msgstr "Número máximo de descargas simultáneas:"
+
+#: ../ui/preference.py:728
+msgid "Download directory: "
+msgstr "Directorio de descargas:"
+
+#: ../ui/preference.py:734
+msgid "Change"
+msgstr "Cambiar"
+
+#: ../ui/preference.py:750
+msgid "On uninstall software"
+msgstr ""
+
+#: ../ui/preference.py:755
+msgid "Delete configuration files"
+msgstr "Eliminar archivos de configuración"
+
+#: ../ui/preference.py:792
+msgid "Select Directory"
+msgstr "Elegir directorio"
+
+#: ../ui/uninstall_page.py:160
+#, python-format
+msgid "%s applications can be uninstalled"
+msgstr "%s aplicaciones no pueden desinstalarse"
+
+#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
+msgid "Waiting for uninstall"
+msgstr "Esperando la desinstalación"
+
+#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
+msgid "Uninstalling"
+msgstr "Desinstalando"
+
+#: ../ui/uninstall_page.py:568
+msgid "Uninstall successful"
+msgstr "Desinstalación satisfactoria"
+
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 weekly"
 msgstr "Top 25 de la semana"
@@ -309,6 +473,49 @@ msgstr "Top 25 del mes"
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 of all time"
 msgstr "Top 25 de todos los tiempos"
+
+#: ../ui/detail_page.py:175
+msgid "Also in the category..."
+msgstr "También en la categoría..."
+
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
+msgid "Loading comments..."
+msgstr "Cargando comentarios..."
+
+#: ../ui/detail_page.py:350
+#, python-format
+msgid "Download: %s"
+msgstr "Descarga: %s"
+
+#: ../ui/detail_page.py:383
+msgid "Category: "
+msgstr "Categoría"
+
+#: ../ui/detail_page.py:387
+#, python-format
+msgid "Version: %s"
+msgstr "Versión: %s"
+
+#: ../ui/detail_page.py:388
+msgid "Download: 0"
+msgstr "Descarga: 0"
+
+#: ../ui/detail_page.py:389
+msgid "Size: calculating..."
+msgstr "Tamaño: calculando..."
+
+#: ../ui/detail_page.py:393
+msgid "Visit Homepage"
+msgstr "Visitar sitio web"
+
+#: ../ui/detail_page.py:454
+#, python-format
+msgid "Size: %s"
+msgstr "Tamaño: %s"
+
+#: ../ui/detail_page.py:594
+msgid "Powered by 又拍云存储"
+msgstr "Potenciado por UPYun Cloud Storage (又拍云存储)"
 
 #: ../ui/category_info.py:26
 msgid "Internet"
@@ -610,108 +817,9 @@ msgstr "Emulador de terminal"
 msgid "Text editor"
 msgstr "Editor de texto"
 
-#: ../ui/home_page.py:485
+#: ../ui/search_page.py:109
 #, python-format
-msgid "%s: %s applications"
-msgstr ""
-
-#: ../ui/home_page.py:674
-#, python-format
-msgid "%s > %s : %s applications"
-msgstr ""
-
-#: ../ui/home_page.py:730 ../ui/software_center.py:786
-msgid "Home"
-msgstr ""
-
-#: ../ui/home_page.py:770
-msgid "Hot applications"
-msgstr ""
-
-#: ../ui/home_page.py:770
-msgid "Topics"
-msgstr ""
-
-#: ../ui/home_page.py:770
-msgid "Download rank"
-msgstr ""
-
-#: ../ui/widgets.py:66
-msgid "Just now"
-msgstr "Ahora mismo"
-
-#: ../ui/widgets.py:71
-msgid "One minute ago"
-msgstr "Hace un minuto"
-
-#: ../ui/widgets.py:73
-#, python-format
-msgid "%s minutes ago"
-msgstr "Hace %s minutos"
-
-#: ../ui/widgets.py:78
-msgid "One hour ago"
-msgstr "Hace una hora"
-
-#: ../ui/widgets.py:80
-#, python-format
-msgid "%s hours ago"
-msgstr "Hace %s horas"
-
-#: ../ui/widgets.py:84
-msgid "Yesterday"
-msgstr "Ayer"
-
-#: ../ui/widgets.py:295 ../ui/widgets.py:369
-msgid "Click to refresh"
-msgstr "Clic para refrescar"
-
-#: ../ui/widgets.py:462
-msgid "OK"
-msgstr "Aceptar"
-
-#: ../ui/widgets.py:463 ../ui/preference.py:445
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: ../ui/utils.py:321
-msgid "Running"
-msgstr "Ejecutando"
-
-#: ../ui/utils.py:322
-msgid "Preparing"
-msgstr "Preparando"
-
-#: ../ui/utils.py:323
-msgid "Unpacking"
-msgstr "Desempaquetando"
-
-#: ../ui/utils.py:324
-msgid "Preparing to configure"
-msgstr "Preparando para configurar"
-
-#: ../ui/utils.py:325
-msgid "Configuring"
-msgstr "Configurando"
-
-#: ../ui/utils.py:326
-msgid "Installed"
-msgstr "Instalado"
-
-#: ../ui/utils.py:336
-msgid "Err"
-msgstr ""
-
-#: ../ui/utils.py:337
-msgid "Ign"
-msgstr ""
-
-#: ../ui/utils.py:338
-msgid "Get"
-msgstr ""
-
-#: ../ui/utils.py:339
-msgid "Hit"
+msgid "%s: %s matched applications"
 msgstr ""
 
 #: ../ui/software_center.py:129
@@ -803,18 +911,13 @@ msgstr ""
 msgid "Refresh the package list and try again."
 msgstr ""
 
-#: ../ui/software_center.py:730 ../ui/preference.py:463
-msgid "Deepin Software Center"
-msgstr ""
-
 #: ../ui/software_center.py:767
 msgid "Join us"
 msgstr ""
 
 #: ../ui/software_center.py:789
-#, fuzzy
 msgid "Installation"
-msgstr "Instalando"
+msgstr ""
 
 #: ../ui/software_center.py:813
 msgid "Refresh applications lists"
@@ -848,113 +951,3 @@ msgstr ""
 #: ../ui/software_center.py:1136
 msgid "Your system is clean."
 msgstr ""
-
-#: ../ui/item_render.py:44
-msgid "Unwatch"
-msgstr ""
-
-#: ../ui/preference.py:468
-msgid "Version:"
-msgstr "Versión:"
-
-#: ../ui/preference.py:485
-msgid ""
-"Deepin Software Center is a commonly used software center on Linux. It "
-"selected more than 2,600 decent applications and features easy installation "
-"and uninstall, software repository and recommended applications. It supports "
-"1-click install, downloading packages with multi-thread and clearing up "
-"cached packages. It provides topics for software introduction and shares "
-"good applications. \n"
-msgstr ""
-
-#: ../ui/preference.py:531
-msgid "General"
-msgstr "General"
-
-#: ../ui/preference.py:532
-msgid "Mirrors"
-msgstr ""
-
-#: ../ui/preference.py:533
-msgid "About"
-msgstr "Información"
-
-#: ../ui/preference.py:555
-msgid "Select mirror"
-msgstr "Elegir mirror"
-
-#: ../ui/preference.py:579
-msgid "Select best mirror"
-msgstr "Elegir el mejor mirror"
-
-#: ../ui/preference.py:580
-msgid ""
-"Please wait. The process will take 30 seconds or more depending on your "
-"network connection"
-msgstr ""
-"Por favor espera. El proceso tomará 30 segundos o más dependiendo de tu "
-"conexión a internet"
-
-#: ../ui/preference.py:642
-msgid ""
-"Test for downloading mirror failed. Please check your network connection."
-msgstr ""
-
-#: ../ui/preference.py:643
-msgid "Close"
-msgstr "Cerrar"
-
-#: ../ui/preference.py:677
-msgid "Update applications lists"
-msgstr "Actualizar lista de aplicaciones"
-
-#: ../ui/preference.py:683
-msgid "Update automatically"
-msgstr "Actualizar automáticamente"
-
-#: ../ui/preference.py:686
-msgid "Time interval: "
-msgstr ""
-
-#: ../ui/preference.py:689
-msgid " hour"
-msgstr "hora"
-
-#: ../ui/preference.py:712
-msgid "Download settings"
-msgstr "Ajustes de descarga"
-
-#: ../ui/preference.py:718
-msgid "Max download task number: "
-msgstr "Número máximo de descargas simultáneas:"
-
-#: ../ui/preference.py:728
-msgid "Download directory: "
-msgstr "Directorio de descargas:"
-
-#: ../ui/preference.py:734
-msgid "Change"
-msgstr "Cambiar"
-
-#: ../ui/preference.py:750
-msgid "On uninstall software"
-msgstr ""
-
-#: ../ui/preference.py:755
-msgid "Delete configuration files"
-msgstr "Eliminar archivos de configuración"
-
-#: ../ui/preference.py:792
-msgid "Select Directory"
-msgstr "Elegir directorio"
-
-#: ../ui/search_page.py:109
-#, python-format
-msgid "%s: %s matched applications"
-msgstr ""
-
-#~ msgid "Untitled"
-#~ msgstr "Sin título"
-
-#~ msgid "Software repository"
-#~ msgstr "Repositorio de software"

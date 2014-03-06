@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 11:21+0800\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
 "PO-Revision-Date: 2014-01-03 16:33+0000\n"
 "Last-Translator: ballmet <emkohencel@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/deepin-software-"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../apt/dsc-daemon.py:259
+#: ../apt/dsc-daemon.py:258
 #, python-format
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
@@ -28,7 +28,11 @@ msgstr ""
 "Existuje %s balíčkov, ktoré je potrebné povýšiť. Prosím, otvorte centrum "
 "softvéru aby ste ich mohli povýšiť!"
 
-#: ../apt/dsc-daemon.py:262
+#: ../apt/dsc-daemon.py:259 ../apt/dsc-daemon.py:262
+msgid "Upgrade Info"
+msgstr "Informácia o povýšení"
+
+#: ../apt/dsc-daemon.py:261
 #, python-format
 msgid ""
 "There is %s package need to upgrade in your system, please open the software "
@@ -36,7 +40,3 @@ msgid ""
 msgstr ""
 "Je tu %s balík, ktorý musí byť povýšený. Prosím, otvorte centrum softvéru "
 "pre povýšenie!"
-
-#: ../apt/dsc-daemon.py:339
-msgid "Upgrade Info"
-msgstr "Informácia o povýšení"

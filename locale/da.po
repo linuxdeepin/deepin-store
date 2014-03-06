@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 17:18+0800\n"
-"PO-Revision-Date: 2014-01-12 13:15+0000\n"
-"Last-Translator: Snubbi <carl@manjaro.dk>\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
+"PO-Revision-Date: 2014-03-06 13:17+0000\n"
+"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/deepin-software-"
 "center/language/da/)\n"
 "Language: da\n"
@@ -18,70 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../ui/detail_page.py:175
-msgid "Also in the category..."
-msgstr "Også i kategorien..."
-
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
-msgid "Loading comments..."
-msgstr "Indlæser kommenterer..."
-
-#: ../ui/detail_page.py:350
-#, python-format
-msgid "Download: %s"
-msgstr "Download: %s"
-
-#: ../ui/detail_page.py:383
-msgid "Category: "
-msgstr "Kategori:"
-
-#: ../ui/detail_page.py:387
-#, python-format
-msgid "Version: %s"
-msgstr "Version: %s"
-
-#: ../ui/detail_page.py:388
-msgid "Download: 0"
-msgstr "Download: 0"
-
-#: ../ui/detail_page.py:389
-msgid "Size: calculating..."
-msgstr "Størelse: beregner..."
-
-#: ../ui/detail_page.py:393
-msgid "Visit Homepage"
-msgstr "Besøg Hjemmeside"
-
-#: ../ui/detail_page.py:430 ../ui/install_page.py:480 ../ui/search_page.py:285
-msgid "Successfully installed"
-msgstr "Succesfuldt installeret"
-
-#: ../ui/detail_page.py:454
-#, python-format
-msgid "Size: %s"
-msgstr "Størelse: %s"
-
-#: ../ui/detail_page.py:594
-msgid "Powered by 又拍云存储"
-msgstr "Drevet af 又拍云存储"
-
-#: ../ui/uninstall_page.py:160
-#, python-format
-msgid "%s applications can be uninstalled"
-msgstr "%s programmerne kan afinstalleres"
-
-#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
-msgid "Waiting for uninstall"
-msgstr "Venter for afinstallering"
-
-#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
-msgid "Uninstalling"
-msgstr "Afinstallerer"
-
-#: ../ui/uninstall_page.py:568
-msgid "Uninstall successful"
-msgstr "Afinstalleringen var vellykket"
 
 #: ../ui/install_page.py:138
 #, python-format
@@ -92,6 +28,10 @@ msgstr "%s programmer bliver installeret"
 #: ../ui/upgrade_page.py:1588
 msgid "Analyzing dependencies"
 msgstr " Analyserer afhængigheder"
+
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
+msgid "Successfully installed"
+msgstr "Succesfuldt installeret"
 
 #: ../ui/install_page.py:598 ../ui/install_page.py:610
 msgid "Download was interrupted"
@@ -126,6 +66,80 @@ msgstr "Installerer"
 msgid "Installation complete"
 msgstr "Installation færdig"
 
+#: ../ui/home_page.py:485
+#, python-format
+msgid "%s: %s applications"
+msgstr "%s: %s programmer"
+
+#: ../ui/home_page.py:674
+#, python-format
+msgid "%s > %s : %s applications"
+msgstr "%s > %s : %s programmer"
+
+#: ../ui/home_page.py:730 ../ui/software_center.py:786
+msgid "Home"
+msgstr "Hjem"
+
+#: ../ui/home_page.py:770
+msgid "Hot applications"
+msgstr "Hotte programmer"
+
+#: ../ui/home_page.py:770
+msgid "Topics"
+msgstr "Emner"
+
+#: ../ui/home_page.py:770
+msgid "Download rank"
+msgstr "Download rang"
+
+#: ../ui/utils.py:321
+msgid "Running"
+msgstr "Kører"
+
+#: ../ui/utils.py:322
+msgid "Preparing"
+msgstr "Forbereder"
+
+#: ../ui/utils.py:323
+msgid "Unpacking"
+msgstr "Udpakker"
+
+#: ../ui/utils.py:324
+msgid "Preparing to configure"
+msgstr "Forbereder sig på at konfigurere"
+
+#: ../ui/utils.py:325
+msgid "Configuring"
+msgstr " Konfigurerer"
+
+#: ../ui/utils.py:326
+msgid "Installed"
+msgstr "Installeret"
+
+#: ../ui/utils.py:336
+msgid "Err"
+msgstr "Err"
+
+#: ../ui/utils.py:337
+msgid "Ign"
+msgstr "Ign"
+
+#: ../ui/utils.py:338
+msgid "Get"
+msgstr "Get"
+
+#: ../ui/utils.py:339
+msgid "Hit"
+msgstr "Hit"
+
+#: ../ui/item_render.py:44
+msgid "Unwatch"
+msgstr "Ikke gennemset"
+
+#: ../ui/item_render.py:46 ../ui/upgrade_page.py:236
+msgid "Watch again"
+msgstr "Gennemse igen"
+
 #: ../ui/upgrade_page.py:76 ../ui/upgrade_page.py:105
 #: ../ui/upgrade_page.py:330
 msgid "Last upgraded time: "
@@ -144,10 +158,6 @@ msgstr "Opgrader valgte emner"
 #, python-format
 msgid "%s applications are available for upgrade"
 msgstr "%s programmer er tilgængelig for opgradering"
-
-#: ../ui/upgrade_page.py:236 ../ui/item_render.py:46
-msgid "Watch again"
-msgstr "Gennemse igen"
 
 #: ../ui/upgrade_page.py:270
 #, python-format
@@ -302,6 +312,167 @@ msgstr "Opgraderer"
 msgid "Upgrade complete"
 msgstr "Opgradering færdiggjort"
 
+#: ../ui/widgets.py:66
+msgid "Just now"
+msgstr "Lige nu"
+
+#: ../ui/widgets.py:71
+msgid "One minute ago"
+msgstr "Et minut siden"
+
+#: ../ui/widgets.py:73
+#, python-format
+msgid "%s minutes ago"
+msgstr "%s minuter siden"
+
+#: ../ui/widgets.py:78
+msgid "One hour ago"
+msgstr "En time siden"
+
+#: ../ui/widgets.py:80
+#, python-format
+msgid "%s hours ago"
+msgstr "%s timer siden"
+
+#: ../ui/widgets.py:84
+msgid "Yesterday"
+msgstr "Igår"
+
+#: ../ui/widgets.py:295 ../ui/widgets.py:369
+msgid "Click to refresh"
+msgstr "Klik for at genopfriske"
+
+#: ../ui/widgets.py:462
+msgid "OK"
+msgstr "OK"
+
+#: ../ui/widgets.py:463 ../ui/preference.py:445
+msgid "Cancel"
+msgstr "Annullere"
+
+#: ../ui/preference.py:463 ../ui/software_center.py:730
+msgid "Deepin Software Center"
+msgstr "Deepin Software Center"
+
+#: ../ui/preference.py:468
+msgid "Version:"
+msgstr "Version:"
+
+#: ../ui/preference.py:485
+msgid ""
+"Deepin Software Center is a commonly used software center on Linux. It "
+"selected more than 2,600 decent applications and features easy installation "
+"and uninstall, software repository and recommended applications. It supports "
+"1-click install, downloading packages with multi-thread and clearing up "
+"cached packages. It provides topics for software introduction and shares "
+"good applications. \n"
+msgstr ""
+"Deepin Software Center er et normalt brugt softwareprogram på Linux. Det "
+"indeholder over 2.600 ordentlige programmer og tilbyder nem installation og "
+"afinstallering, softwarearkiv og anbefalede programmer. Det understøtter 1-"
+"klik installering, downloader pakker med multi-tråd og ryder op efter "
+"installering. Det giver en god softwareintroduktion og tilbyder gode "
+"programmer\n"
+
+#: ../ui/preference.py:531
+msgid "General"
+msgstr "General"
+
+#: ../ui/preference.py:532
+msgid "Mirrors"
+msgstr ""
+
+#: ../ui/preference.py:533
+msgid "About"
+msgstr "Om"
+
+#: ../ui/preference.py:555
+msgid "Select mirror"
+msgstr "Vælg mirror"
+
+#: ../ui/preference.py:579
+msgid "Select best mirror"
+msgstr "Vælg bedste mirror"
+
+#: ../ui/preference.py:580
+msgid ""
+"Please wait. The process will take 30 seconds or more depending on your "
+"network connection"
+msgstr ""
+"Vent venligst. Processen vil tage 30 sekunder eller mere afhængig af din "
+"netværksforbindelse"
+
+#: ../ui/preference.py:642
+msgid ""
+"Test for downloading mirror failed. Please check your network connection."
+msgstr ""
+"Test for download spejl mislykkes. Tjek venligst din netværksforbindelse."
+
+#: ../ui/preference.py:643
+msgid "Close"
+msgstr "Luk"
+
+#: ../ui/preference.py:677
+msgid "Update applications lists"
+msgstr "Opdater programlister"
+
+#: ../ui/preference.py:683
+msgid "Update automatically"
+msgstr "Opdater automatisk"
+
+#: ../ui/preference.py:686
+msgid "Time interval: "
+msgstr "Tidsinterval:"
+
+#: ../ui/preference.py:689
+msgid " hour"
+msgstr "time"
+
+#: ../ui/preference.py:712
+msgid "Download settings"
+msgstr "Download indstillinger"
+
+#: ../ui/preference.py:718
+msgid "Max download task number: "
+msgstr "Max download opgaveantal:"
+
+#: ../ui/preference.py:728
+msgid "Download directory: "
+msgstr "Download mappe: "
+
+#: ../ui/preference.py:734
+msgid "Change"
+msgstr "Ændr"
+
+#: ../ui/preference.py:750
+msgid "On uninstall software"
+msgstr "på ikke installeret software"
+
+#: ../ui/preference.py:755
+msgid "Delete configuration files"
+msgstr "Slet konfigurationsfiler"
+
+#: ../ui/preference.py:792
+msgid "Select Directory"
+msgstr "Vælg mappe"
+
+#: ../ui/uninstall_page.py:160
+#, python-format
+msgid "%s applications can be uninstalled"
+msgstr "%s programmerne kan afinstalleres"
+
+#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
+msgid "Waiting for uninstall"
+msgstr "Venter for afinstallering"
+
+#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
+msgid "Uninstalling"
+msgstr "Afinstallerer"
+
+#: ../ui/uninstall_page.py:568
+msgid "Uninstall successful"
+msgstr "Afinstalleringen var vellykket"
+
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 weekly"
 msgstr "Top 25 ugentlig"
@@ -313,6 +484,49 @@ msgstr "Top 25 måndentligt"
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 of all time"
 msgstr "Top25  nogensinde"
+
+#: ../ui/detail_page.py:175
+msgid "Also in the category..."
+msgstr "Også i kategorien..."
+
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
+msgid "Loading comments..."
+msgstr "Indlæser kommenterer..."
+
+#: ../ui/detail_page.py:350
+#, python-format
+msgid "Download: %s"
+msgstr "Download: %s"
+
+#: ../ui/detail_page.py:383
+msgid "Category: "
+msgstr "Kategori:"
+
+#: ../ui/detail_page.py:387
+#, python-format
+msgid "Version: %s"
+msgstr "Version: %s"
+
+#: ../ui/detail_page.py:388
+msgid "Download: 0"
+msgstr "Download: 0"
+
+#: ../ui/detail_page.py:389
+msgid "Size: calculating..."
+msgstr "Størelse: beregner..."
+
+#: ../ui/detail_page.py:393
+msgid "Visit Homepage"
+msgstr "Besøg Hjemmeside"
+
+#: ../ui/detail_page.py:454
+#, python-format
+msgid "Size: %s"
+msgstr "Størelse: %s"
+
+#: ../ui/detail_page.py:594
+msgid "Powered by 又拍云存储"
+msgstr "Drevet af 又拍云存储"
 
 #: ../ui/category_info.py:26
 msgid "Internet"
@@ -614,109 +828,10 @@ msgstr "Terminal emulator"
 msgid "Text editor"
 msgstr "Tekst editor"
 
-#: ../ui/home_page.py:485
+#: ../ui/search_page.py:109
 #, python-format
-msgid "%s: %s applications"
-msgstr "%s: %s programmer"
-
-#: ../ui/home_page.py:674
-#, python-format
-msgid "%s > %s : %s applications"
-msgstr "%s > %s : %s programmer"
-
-#: ../ui/home_page.py:730 ../ui/software_center.py:786
-msgid "Home"
-msgstr "Hjem"
-
-#: ../ui/home_page.py:770
-msgid "Hot applications"
-msgstr "Hotte programmer"
-
-#: ../ui/home_page.py:770
-msgid "Topics"
-msgstr "Emner"
-
-#: ../ui/home_page.py:770
-msgid "Download rank"
-msgstr "Download rang"
-
-#: ../ui/widgets.py:66
-msgid "Just now"
-msgstr "Lige nu"
-
-#: ../ui/widgets.py:71
-msgid "One minute ago"
-msgstr "Et minut siden"
-
-#: ../ui/widgets.py:73
-#, python-format
-msgid "%s minutes ago"
-msgstr "%s minuter siden"
-
-#: ../ui/widgets.py:78
-msgid "One hour ago"
-msgstr "En time siden"
-
-#: ../ui/widgets.py:80
-#, python-format
-msgid "%s hours ago"
-msgstr "%s timer siden"
-
-#: ../ui/widgets.py:84
-msgid "Yesterday"
-msgstr "Igår"
-
-#: ../ui/widgets.py:295 ../ui/widgets.py:369
-msgid "Click to refresh"
-msgstr "Klik for at genopfriske"
-
-#: ../ui/widgets.py:462
-msgid "OK"
-msgstr "OK"
-
-#: ../ui/widgets.py:463 ../ui/preference.py:445
-msgid "Cancel"
-msgstr "Annullere"
-
-#: ../ui/utils.py:321
-msgid "Running"
-msgstr "Kører"
-
-#: ../ui/utils.py:322
-msgid "Preparing"
-msgstr "Forbereder"
-
-#: ../ui/utils.py:323
-msgid "Unpacking"
-msgstr "Udpakker"
-
-#: ../ui/utils.py:324
-msgid "Preparing to configure"
-msgstr "Forbereder sig på at konfigurere"
-
-#: ../ui/utils.py:325
-msgid "Configuring"
-msgstr " Konfigurerer"
-
-#: ../ui/utils.py:326
-msgid "Installed"
-msgstr "Installeret"
-
-#: ../ui/utils.py:336
-msgid "Err"
-msgstr "Err"
-
-#: ../ui/utils.py:337
-msgid "Ign"
-msgstr "Ign"
-
-#: ../ui/utils.py:338
-msgid "Get"
-msgstr "Get"
-
-#: ../ui/utils.py:339
-msgid "Hit"
-msgstr "Hit"
+msgid "%s: %s matched applications"
+msgstr "%s: %s matchende programmer"
 
 #: ../ui/software_center.py:129
 #, python-format
@@ -811,18 +926,13 @@ msgstr "Den udbedte pakke \"%s\" blev ikke fundet i pakkelisten."
 msgid "Refresh the package list and try again."
 msgstr "Genopfrisk pakkelisten og prøv igen. "
 
-#: ../ui/software_center.py:730 ../ui/preference.py:463
-msgid "Deepin Software Center"
-msgstr "Deepin Software Center"
-
 #: ../ui/software_center.py:767
 msgid "Join us"
 msgstr "Mød os"
 
 #: ../ui/software_center.py:789
-#, fuzzy
 msgid "Installation"
-msgstr "Installerer"
+msgstr ""
 
 #: ../ui/software_center.py:813
 msgid "Refresh applications lists"
@@ -856,129 +966,3 @@ msgstr "Du har fjernet  %s pakker og frigivet %s harddiskplads"
 #: ../ui/software_center.py:1136
 msgid "Your system is clean."
 msgstr "Dit system er rent."
-
-#: ../ui/item_render.py:44
-msgid "Unwatch"
-msgstr "Ikke gennemset"
-
-#: ../ui/preference.py:468
-msgid "Version:"
-msgstr "Version:"
-
-#: ../ui/preference.py:485
-msgid ""
-"Deepin Software Center is a commonly used software center on Linux. It "
-"selected more than 2,600 decent applications and features easy installation "
-"and uninstall, software repository and recommended applications. It supports "
-"1-click install, downloading packages with multi-thread and clearing up "
-"cached packages. It provides topics for software introduction and shares "
-"good applications. \n"
-msgstr ""
-"Deepin Software Center er et normalt brugt softwareprogram på Linux. Det "
-"indeholder over 2.600 ordentlige programmer og tilbyder nem installation og "
-"afinstallering, softwarearkiv og anbefalede programmer. Det understøtter 1-"
-"klik installering, downloader pakker med multi-tråd og ryder op efter "
-"installering. Det giver en god softwareintroduktion og tilbyder gode "
-"programmer\n"
-
-#: ../ui/preference.py:531
-msgid "General"
-msgstr "General"
-
-#: ../ui/preference.py:532
-msgid "Mirrors"
-msgstr ""
-
-#: ../ui/preference.py:533
-msgid "About"
-msgstr "Om"
-
-#: ../ui/preference.py:555
-msgid "Select mirror"
-msgstr "Vælg mirror"
-
-#: ../ui/preference.py:579
-msgid "Select best mirror"
-msgstr "Vælg bedste mirror"
-
-#: ../ui/preference.py:580
-msgid ""
-"Please wait. The process will take 30 seconds or more depending on your "
-"network connection"
-msgstr ""
-"Vent venligst. Processen vil tage 30 sekunder eller mere afhængig af din "
-"netværksforbindelse"
-
-#: ../ui/preference.py:642
-msgid ""
-"Test for downloading mirror failed. Please check your network connection."
-msgstr ""
-"Test for download spejl mislykkes. Tjek venligst din netværksforbindelse."
-
-#: ../ui/preference.py:643
-msgid "Close"
-msgstr "Luk"
-
-#: ../ui/preference.py:677
-msgid "Update applications lists"
-msgstr "Opdater programlister"
-
-#: ../ui/preference.py:683
-msgid "Update automatically"
-msgstr "Opdater automatisk"
-
-#: ../ui/preference.py:686
-msgid "Time interval: "
-msgstr "Tidsinterval:"
-
-#: ../ui/preference.py:689
-msgid " hour"
-msgstr "time"
-
-#: ../ui/preference.py:712
-msgid "Download settings"
-msgstr "Download indstillinger"
-
-#: ../ui/preference.py:718
-msgid "Max download task number: "
-msgstr "Max download opgaveantal:"
-
-#: ../ui/preference.py:728
-msgid "Download directory: "
-msgstr "Download mappe: "
-
-#: ../ui/preference.py:734
-msgid "Change"
-msgstr "Ændr"
-
-#: ../ui/preference.py:750
-msgid "On uninstall software"
-msgstr "på ikke installeret software"
-
-#: ../ui/preference.py:755
-msgid "Delete configuration files"
-msgstr "Slet konfigurationsfiler"
-
-#: ../ui/preference.py:792
-msgid "Select Directory"
-msgstr "Vælg mappe"
-
-#: ../ui/search_page.py:109
-#, python-format
-msgid "%s: %s matched applications"
-msgstr "%s: %s matchende programmer"
-
-#~ msgid "Untitled"
-#~ msgstr "Unavngivet"
-
-#~ msgid "Unknown mirror url"
-#~ msgstr "Ukendt mirror url"
-
-#~ msgid "Software repository"
-#~ msgstr "Software arkiv       "
-
-#~ msgid "Install Manage"
-#~ msgstr "Installering Håndter"
-
-#~ msgid "Information"
-#~ msgstr "Information"

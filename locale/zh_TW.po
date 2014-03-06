@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# electricface <songwentai@linuxdeepin.com>, 2014
 # freddy4212 <freddy4212@gmail.com>, 2013-2014
 # Wang Dianjin <wangdianjin@linuxdeepin.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 17:18+0800\n"
-"PO-Revision-Date: 2014-01-24 03:46+0000\n"
-"Last-Translator: freddy4212 <freddy4212@gmail.com>\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
+"PO-Revision-Date: 2014-03-06 13:21+0000\n"
+"Last-Translator: electricface <songwentai@linuxdeepin.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/deepin-"
 "software-center/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -19,70 +20,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: ../ui/detail_page.py:175
-msgid "Also in the category..."
-msgstr "同類熱門推薦..."
-
-#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
-msgid "Loading comments..."
-msgstr "正在載入評論..."
-
-#: ../ui/detail_page.py:350
-#, python-format
-msgid "Download: %s"
-msgstr "下載：%s"
-
-#: ../ui/detail_page.py:383
-msgid "Category: "
-msgstr "分類："
-
-#: ../ui/detail_page.py:387
-#, python-format
-msgid "Version: %s"
-msgstr "版本：%s"
-
-#: ../ui/detail_page.py:388
-msgid "Download: 0"
-msgstr "下載：0"
-
-#: ../ui/detail_page.py:389
-msgid "Size: calculating..."
-msgstr "大小：正在計算..."
-
-#: ../ui/detail_page.py:393
-msgid "Visit Homepage"
-msgstr "造訪軟體首頁"
-
-#: ../ui/detail_page.py:430 ../ui/install_page.py:480 ../ui/search_page.py:285
-msgid "Successfully installed"
-msgstr "已成功安裝"
-
-#: ../ui/detail_page.py:454
-#, python-format
-msgid "Size: %s"
-msgstr "大小：%s"
-
-#: ../ui/detail_page.py:594
-msgid "Powered by 又拍云存储"
-msgstr "Powered by 又拍云存储"
-
-#: ../ui/uninstall_page.py:160
-#, python-format
-msgid "%s applications can be uninstalled"
-msgstr "有 %s 款應用程式可以解除安裝"
-
-#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
-msgid "Waiting for uninstall"
-msgstr "等待解除安裝"
-
-#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
-msgid "Uninstalling"
-msgstr "正在解除安裝"
-
-#: ../ui/uninstall_page.py:568
-msgid "Uninstall successful"
-msgstr "解除安裝完成"
 
 #: ../ui/install_page.py:138
 #, python-format
@@ -93,6 +30,10 @@ msgstr "正在安裝 %s 款應用程式"
 #: ../ui/upgrade_page.py:1588
 msgid "Analyzing dependencies"
 msgstr "正在分析依賴關係"
+
+#: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
+msgid "Successfully installed"
+msgstr "已成功安裝"
 
 #: ../ui/install_page.py:598 ../ui/install_page.py:610
 msgid "Download was interrupted"
@@ -127,6 +68,80 @@ msgstr "正在安裝"
 msgid "Installation complete"
 msgstr "安裝完成"
 
+#: ../ui/home_page.py:485
+#, python-format
+msgid "%s: %s applications"
+msgstr "%s: %s 款應用程式"
+
+#: ../ui/home_page.py:674
+#, python-format
+msgid "%s > %s : %s applications"
+msgstr "%s > %s : %s 款應用程式"
+
+#: ../ui/home_page.py:730 ../ui/software_center.py:786
+msgid "Home"
+msgstr "首頁推薦"
+
+#: ../ui/home_page.py:770
+msgid "Hot applications"
+msgstr "熱門程式"
+
+#: ../ui/home_page.py:770
+msgid "Topics"
+msgstr "主題園地"
+
+#: ../ui/home_page.py:770
+msgid "Download rank"
+msgstr "下載排行"
+
+#: ../ui/utils.py:321
+msgid "Running"
+msgstr "正在執行"
+
+#: ../ui/utils.py:322
+msgid "Preparing"
+msgstr "正在準備"
+
+#: ../ui/utils.py:323
+msgid "Unpacking"
+msgstr "正在解開"
+
+#: ../ui/utils.py:324
+msgid "Preparing to configure"
+msgstr "正在準備設定"
+
+#: ../ui/utils.py:325
+msgid "Configuring"
+msgstr "正在設定"
+
+#: ../ui/utils.py:326
+msgid "Installed"
+msgstr "已安裝"
+
+#: ../ui/utils.py:336
+msgid "Err"
+msgstr "忽略"
+
+#: ../ui/utils.py:337
+msgid "Ign"
+msgstr "忽略"
+
+#: ../ui/utils.py:338
+msgid "Get"
+msgstr "取得"
+
+#: ../ui/utils.py:339
+msgid "Hit"
+msgstr "命中"
+
+#: ../ui/item_render.py:44
+msgid "Unwatch"
+msgstr "不再提醒"
+
+#: ../ui/item_render.py:46 ../ui/upgrade_page.py:236
+msgid "Watch again"
+msgstr "重新提醒"
+
 #: ../ui/upgrade_page.py:76 ../ui/upgrade_page.py:105
 #: ../ui/upgrade_page.py:330
 msgid "Last upgraded time: "
@@ -145,10 +160,6 @@ msgstr "升級選擇的軟體"
 #, python-format
 msgid "%s applications are available for upgrade"
 msgstr "目前共有 %s 款應用程式有可用的升級"
-
-#: ../ui/upgrade_page.py:236 ../ui/item_render.py:46
-msgid "Watch again"
-msgstr "重新提醒"
 
 #: ../ui/upgrade_page.py:270
 #, python-format
@@ -300,6 +311,163 @@ msgstr "正在升級"
 msgid "Upgrade complete"
 msgstr "升級完成"
 
+#: ../ui/widgets.py:66
+msgid "Just now"
+msgstr "剛剛"
+
+#: ../ui/widgets.py:71
+msgid "One minute ago"
+msgstr "一分鍾前"
+
+#: ../ui/widgets.py:73
+#, python-format
+msgid "%s minutes ago"
+msgstr "%s 分鍾前"
+
+#: ../ui/widgets.py:78
+msgid "One hour ago"
+msgstr "一小時前"
+
+#: ../ui/widgets.py:80
+#, python-format
+msgid "%s hours ago"
+msgstr "%s 小時前"
+
+#: ../ui/widgets.py:84
+msgid "Yesterday"
+msgstr "昨天"
+
+#: ../ui/widgets.py:295 ../ui/widgets.py:369
+msgid "Click to refresh"
+msgstr "點擊此處即可重新整理"
+
+#: ../ui/widgets.py:462
+msgid "OK"
+msgstr "確定"
+
+#: ../ui/widgets.py:463 ../ui/preference.py:445
+msgid "Cancel"
+msgstr "取消"
+
+#: ../ui/preference.py:463 ../ui/software_center.py:730
+msgid "Deepin Software Center"
+msgstr "深度軟體中心"
+
+#: ../ui/preference.py:468
+msgid "Version:"
+msgstr "版本："
+
+#: ../ui/preference.py:485
+msgid ""
+"Deepin Software Center is a commonly used software center on Linux. It "
+"selected more than 2,600 decent applications and features easy installation "
+"and uninstall, software repository and recommended applications. It supports "
+"1-click install, downloading packages with multi-thread and clearing up "
+"cached packages. It provides topics for software introduction and shares "
+"good applications. \n"
+msgstr ""
+"深度軟體中心是Linux平台通用的軟體管理中心，精選了2600多款優秀軟體，擁有軟體安"
+"裝與移除、套件倉庫、熱門軟體推荐等多項功能。支援單鍵快速安裝軟體、多線程下載"
+"及套件快取清理。提供專題介紹，分享好軟體。\n"
+"\n"
+"深度軟體中心是一款遵循GNU GPLv3（GNU通用公共授權條款）的自由軟體。\n"
+
+#: ../ui/preference.py:531
+msgid "General"
+msgstr "一般"
+
+#: ../ui/preference.py:532
+msgid "Mirrors"
+msgstr "軟件源"
+
+#: ../ui/preference.py:533
+msgid "About"
+msgstr "關於"
+
+#: ../ui/preference.py:555
+msgid "Select mirror"
+msgstr "選擇鏡像"
+
+#: ../ui/preference.py:579
+msgid "Select best mirror"
+msgstr "選擇最佳鏡像"
+
+#: ../ui/preference.py:580
+msgid ""
+"Please wait. The process will take 30 seconds or more depending on your "
+"network connection"
+msgstr "請稍等。該過程根據網路連線狀況不同可能會持續 30 秒或更長時間"
+
+#: ../ui/preference.py:642
+msgid ""
+"Test for downloading mirror failed. Please check your network connection."
+msgstr "測試鏡像下載失敗，請檢查您的網路連線。"
+
+#: ../ui/preference.py:643
+msgid "Close"
+msgstr "關閉"
+
+#: ../ui/preference.py:677
+msgid "Update applications lists"
+msgstr "更新應用程式清單"
+
+#: ../ui/preference.py:683
+msgid "Update automatically"
+msgstr "自動更新"
+
+#: ../ui/preference.py:686
+msgid "Time interval: "
+msgstr "間隔時間: "
+
+#: ../ui/preference.py:689
+msgid " hour"
+msgstr " 小時"
+
+#: ../ui/preference.py:712
+msgid "Download settings"
+msgstr "下載設定"
+
+#: ../ui/preference.py:718
+msgid "Max download task number: "
+msgstr "最大下載工作數量: "
+
+#: ../ui/preference.py:728
+msgid "Download directory: "
+msgstr "下載目錄: "
+
+#: ../ui/preference.py:734
+msgid "Change"
+msgstr "瀏覽"
+
+#: ../ui/preference.py:750
+msgid "On uninstall software"
+msgstr "當解除安裝軟體時"
+
+#: ../ui/preference.py:755
+msgid "Delete configuration files"
+msgstr "刪除系統設定檔"
+
+#: ../ui/preference.py:792
+msgid "Select Directory"
+msgstr "選擇目錄"
+
+#: ../ui/uninstall_page.py:160
+#, python-format
+msgid "%s applications can be uninstalled"
+msgstr "有 %s 款應用程式可以解除安裝"
+
+#: ../ui/uninstall_page.py:464 ../ui/uninstall_page.py:547
+msgid "Waiting for uninstall"
+msgstr "等待解除安裝"
+
+#: ../ui/uninstall_page.py:554 ../ui/uninstall_page.py:561
+msgid "Uninstalling"
+msgstr "正在解除安裝"
+
+#: ../ui/uninstall_page.py:568
+msgid "Uninstall successful"
+msgstr "解除安裝完成"
+
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 weekly"
 msgstr "週排行Top25"
@@ -311,6 +479,49 @@ msgstr "月排行Top25"
 #: ../ui/download_rank_page.py:68
 msgid "Top 25 of all time"
 msgstr "總排行Top25"
+
+#: ../ui/detail_page.py:175
+msgid "Also in the category..."
+msgstr "同類熱門推薦..."
+
+#: ../ui/detail_page.py:236 ../ui/detail_page.py:477
+msgid "Loading comments..."
+msgstr "正在載入評論..."
+
+#: ../ui/detail_page.py:350
+#, python-format
+msgid "Download: %s"
+msgstr "下載：%s"
+
+#: ../ui/detail_page.py:383
+msgid "Category: "
+msgstr "分類："
+
+#: ../ui/detail_page.py:387
+#, python-format
+msgid "Version: %s"
+msgstr "版本：%s"
+
+#: ../ui/detail_page.py:388
+msgid "Download: 0"
+msgstr "下載：0"
+
+#: ../ui/detail_page.py:389
+msgid "Size: calculating..."
+msgstr "大小：正在計算..."
+
+#: ../ui/detail_page.py:393
+msgid "Visit Homepage"
+msgstr "造訪軟體首頁"
+
+#: ../ui/detail_page.py:454
+#, python-format
+msgid "Size: %s"
+msgstr "大小：%s"
+
+#: ../ui/detail_page.py:594
+msgid "Powered by 又拍云存储"
+msgstr "Powered by 又拍云存储"
 
 #: ../ui/category_info.py:26
 msgid "Internet"
@@ -612,109 +823,10 @@ msgstr "終端機模擬"
 msgid "Text editor"
 msgstr "文字編輯器"
 
-#: ../ui/home_page.py:485
+#: ../ui/search_page.py:109
 #, python-format
-msgid "%s: %s applications"
-msgstr "%s: %s 款應用程式"
-
-#: ../ui/home_page.py:674
-#, python-format
-msgid "%s > %s : %s applications"
-msgstr "%s > %s : %s 款應用程式"
-
-#: ../ui/home_page.py:730 ../ui/software_center.py:786
-msgid "Home"
-msgstr "首頁推薦"
-
-#: ../ui/home_page.py:770
-msgid "Hot applications"
-msgstr "熱門程式"
-
-#: ../ui/home_page.py:770
-msgid "Topics"
-msgstr "主題園地"
-
-#: ../ui/home_page.py:770
-msgid "Download rank"
-msgstr "下載排行"
-
-#: ../ui/widgets.py:66
-msgid "Just now"
-msgstr "剛剛"
-
-#: ../ui/widgets.py:71
-msgid "One minute ago"
-msgstr "一分鍾前"
-
-#: ../ui/widgets.py:73
-#, python-format
-msgid "%s minutes ago"
-msgstr "%s 分鍾前"
-
-#: ../ui/widgets.py:78
-msgid "One hour ago"
-msgstr "一小時前"
-
-#: ../ui/widgets.py:80
-#, python-format
-msgid "%s hours ago"
-msgstr "%s 小時前"
-
-#: ../ui/widgets.py:84
-msgid "Yesterday"
-msgstr "昨天"
-
-#: ../ui/widgets.py:295 ../ui/widgets.py:369
-msgid "Click to refresh"
-msgstr "點擊此處即可重新整理"
-
-#: ../ui/widgets.py:462
-msgid "OK"
-msgstr "確定"
-
-#: ../ui/widgets.py:463 ../ui/preference.py:445
-msgid "Cancel"
-msgstr "取消"
-
-#: ../ui/utils.py:321
-msgid "Running"
-msgstr "正在執行"
-
-#: ../ui/utils.py:322
-msgid "Preparing"
-msgstr "正在準備"
-
-#: ../ui/utils.py:323
-msgid "Unpacking"
-msgstr "正在解開"
-
-#: ../ui/utils.py:324
-msgid "Preparing to configure"
-msgstr "正在準備設定"
-
-#: ../ui/utils.py:325
-msgid "Configuring"
-msgstr "正在設定"
-
-#: ../ui/utils.py:326
-msgid "Installed"
-msgstr "已安裝"
-
-#: ../ui/utils.py:336
-msgid "Err"
-msgstr "忽略"
-
-#: ../ui/utils.py:337
-msgid "Ign"
-msgstr "忽略"
-
-#: ../ui/utils.py:338
-msgid "Get"
-msgstr "取得"
-
-#: ../ui/utils.py:339
-msgid "Hit"
-msgstr "命中"
+msgid "%s: %s matched applications"
+msgstr "%s：搜尋到 %s 款應用程式"
 
 #: ../ui/software_center.py:129
 #, python-format
@@ -805,18 +917,13 @@ msgstr "請求的套件 \"%s\" 無法在應用程式清單中找到"
 msgid "Refresh the package list and try again."
 msgstr "重新整理應用程式清單並重試"
 
-#: ../ui/software_center.py:730 ../ui/preference.py:463
-msgid "Deepin Software Center"
-msgstr "深度軟體中心"
-
 #: ../ui/software_center.py:767
 msgid "Join us"
 msgstr "加入我們"
 
 #: ../ui/software_center.py:789
-#, fuzzy
 msgid "Installation"
-msgstr "正在安裝"
+msgstr "安裝管理"
 
 #: ../ui/software_center.py:813
 msgid "Refresh applications lists"
@@ -850,125 +957,3 @@ msgstr "恭喜您清理了%s個套件快取，為您節省了%s的硬碟空間�
 #: ../ui/software_center.py:1136
 msgid "Your system is clean."
 msgstr "您的套件快取已經清理乾淨啦﹗毋需要再次清理。"
-
-#: ../ui/item_render.py:44
-msgid "Unwatch"
-msgstr "不再提醒"
-
-#: ../ui/preference.py:468
-msgid "Version:"
-msgstr "版本："
-
-#: ../ui/preference.py:485
-msgid ""
-"Deepin Software Center is a commonly used software center on Linux. It "
-"selected more than 2,600 decent applications and features easy installation "
-"and uninstall, software repository and recommended applications. It supports "
-"1-click install, downloading packages with multi-thread and clearing up "
-"cached packages. It provides topics for software introduction and shares "
-"good applications. \n"
-msgstr ""
-"深度軟體中心是Linux平台通用的軟體管理中心，精選了2600多款優秀軟體，擁有軟體安"
-"裝與移除、套件倉庫、熱門軟體推荐等多項功能。支援單鍵快速安裝軟體、多線程下載"
-"及套件快取清理。提供專題介紹，分享好軟體。\n"
-"\n"
-"深度軟體中心是一款遵循GNU GPLv3（GNU通用公共授權條款）的自由軟體。\n"
-
-#: ../ui/preference.py:531
-msgid "General"
-msgstr "一般"
-
-#: ../ui/preference.py:532
-msgid "Mirrors"
-msgstr ""
-
-#: ../ui/preference.py:533
-msgid "About"
-msgstr "關於"
-
-#: ../ui/preference.py:555
-msgid "Select mirror"
-msgstr "選擇鏡像"
-
-#: ../ui/preference.py:579
-msgid "Select best mirror"
-msgstr "選擇最佳鏡像"
-
-#: ../ui/preference.py:580
-msgid ""
-"Please wait. The process will take 30 seconds or more depending on your "
-"network connection"
-msgstr "請稍等。該過程根據網路連線狀況不同可能會持續 30 秒或更長時間"
-
-#: ../ui/preference.py:642
-msgid ""
-"Test for downloading mirror failed. Please check your network connection."
-msgstr "測試鏡像下載失敗，請檢查您的網路連線。"
-
-#: ../ui/preference.py:643
-msgid "Close"
-msgstr "關閉"
-
-#: ../ui/preference.py:677
-msgid "Update applications lists"
-msgstr "更新應用程式清單"
-
-#: ../ui/preference.py:683
-msgid "Update automatically"
-msgstr "自動更新"
-
-#: ../ui/preference.py:686
-msgid "Time interval: "
-msgstr "間隔時間: "
-
-#: ../ui/preference.py:689
-msgid " hour"
-msgstr " 小時"
-
-#: ../ui/preference.py:712
-msgid "Download settings"
-msgstr "下載設定"
-
-#: ../ui/preference.py:718
-msgid "Max download task number: "
-msgstr "最大下載工作數量: "
-
-#: ../ui/preference.py:728
-msgid "Download directory: "
-msgstr "下載目錄: "
-
-#: ../ui/preference.py:734
-msgid "Change"
-msgstr "瀏覽"
-
-#: ../ui/preference.py:750
-msgid "On uninstall software"
-msgstr "當解除安裝軟體時"
-
-#: ../ui/preference.py:755
-msgid "Delete configuration files"
-msgstr "刪除系統設定檔"
-
-#: ../ui/preference.py:792
-msgid "Select Directory"
-msgstr "選擇目錄"
-
-#: ../ui/search_page.py:109
-#, python-format
-msgid "%s: %s matched applications"
-msgstr "%s：搜尋到 %s 款應用程式"
-
-#~ msgid "Untitled"
-#~ msgstr "無標題"
-
-#~ msgid "Unknown mirror url"
-#~ msgstr "未知鏡像 url"
-
-#~ msgid "Software repository"
-#~ msgstr "軟體檔案庫"
-
-#~ msgid "Install Manage"
-#~ msgstr "安裝管理"
-
-#~ msgid "Information"
-#~ msgstr "訊息"

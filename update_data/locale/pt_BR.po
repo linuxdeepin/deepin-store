@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 11:21+0800\n"
-"PO-Revision-Date: 2013-12-27 19:24+0000\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
+"PO-Revision-Date: 2014-02-26 04:40+0000\n"
 "Last-Translator: 648trindade <rafaelgt.mbin@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "deepin-software-center/language/pt_BR/)\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../apt/dsc-daemon.py:259
+#: ../apt/dsc-daemon.py:258
 #, python-format
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
@@ -28,7 +28,11 @@ msgstr ""
 "Há %s pacotes com necessidade de atualização em seu sistema, por favor abra "
 "a central de aplicativos para atualizar!"
 
-#: ../apt/dsc-daemon.py:262
+#: ../apt/dsc-daemon.py:259 ../apt/dsc-daemon.py:262
+msgid "Upgrade Info"
+msgstr "Informação de atualização"
+
+#: ../apt/dsc-daemon.py:261
 #, python-format
 msgid ""
 "There is %s package need to upgrade in your system, please open the software "
@@ -36,7 +40,3 @@ msgid ""
 msgstr ""
 "Há %s pacote com necessidade de atualização em seu sistema, por favor abra a "
 "central de aplicativos para atualizar!"
-
-#: ../apt/dsc-daemon.py:339
-msgid "Upgrade Info"
-msgstr "Informação de atualização"

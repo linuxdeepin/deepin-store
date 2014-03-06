@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deepin Software Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 11:21+0800\n"
+"POT-Creation-Date: 2014-03-06 21:22+0800\n"
 "PO-Revision-Date: 2014-02-16 00:18+0000\n"
 "Last-Translator: Mohd <mo-hd@windowslive.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/deepin-software-"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: ../apt/dsc-daemon.py:259
+#: ../apt/dsc-daemon.py:258
 #, python-format
 msgid ""
 "There are %s packages need to upgrade in your system, please open the "
@@ -28,7 +28,11 @@ msgid ""
 msgstr ""
 "هناك %s حزم تحتاج إلى الترقية في نظامك ، الرجاء أفتح مركز البرمجيات للترقية !"
 
-#: ../apt/dsc-daemon.py:262
+#: ../apt/dsc-daemon.py:259 ../apt/dsc-daemon.py:262
+msgid "Upgrade Info"
+msgstr "معلومات عن الترقية"
+
+#: ../apt/dsc-daemon.py:261
 #, python-format
 msgid ""
 "There is %s package need to upgrade in your system, please open the software "
@@ -36,7 +40,3 @@ msgid ""
 msgstr ""
 "هناك %s حزمة تحتاج إلى الترقية في نظامك ، الرجاء أفتح مركز البرمجيات "
 "للترقية !"
-
-#: ../apt/dsc-daemon.py:339
-msgid "Upgrade Info"
-msgstr "معلومات عن الترقية"
