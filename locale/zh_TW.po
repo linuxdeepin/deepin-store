@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Peter Dave Hello <hsu@peterdavehello.org>, 2014
 # electricface <songwentai@linuxdeepin.com>, 2014
 # freddy4212 <freddy4212@gmail.com>, 2013-2014
 # Wang Dianjin <wangdianjin@linuxdeepin.com>, 2013
@@ -29,7 +30,7 @@ msgstr "正在安裝 %s 款應用程式"
 #: ../ui/install_page.py:312 ../ui/install_page.py:682
 #: ../ui/upgrade_page.py:1588
 msgid "Analyzing dependencies"
-msgstr "正在分析依賴關係"
+msgstr "正在分析相依性"
 
 #: ../ui/install_page.py:480 ../ui/detail_page.py:430 ../ui/search_page.py:285
 msgid "Successfully installed"
@@ -58,7 +59,7 @@ msgstr "等待安裝"
 
 #: ../ui/install_page.py:722 ../ui/upgrade_page.py:1628
 msgid "Analyzing dependencies failed"
-msgstr "分析依賴關係失敗"
+msgstr "分析相依性失敗"
 
 #: ../ui/install_page.py:731 ../ui/install_page.py:738
 msgid "Installing"
@@ -120,11 +121,11 @@ msgstr "已安裝"
 
 #: ../ui/utils.py:336
 msgid "Err"
-msgstr "忽略"
+msgstr "錯誤"
 
 #: ../ui/utils.py:337
 msgid "Ign"
-msgstr "忽略"
+msgstr "略過"
 
 #: ../ui/utils.py:338
 msgid "Get"
@@ -172,7 +173,7 @@ msgstr "升級完成後關閉電腦"
 
 #: ../ui/upgrade_page.py:299
 msgid "Deepin System Settings is not installed, this function is not work!"
-msgstr "深度系統設定還沒被安裝！本功能無法運作。"
+msgstr "深度系統設定還沒被安裝！本功能無法執行。"
 
 #: ../ui/upgrade_page.py:318
 msgid "Downloading updates"
@@ -180,7 +181,7 @@ msgstr "正在下載升級套件"
 
 #: ../ui/upgrade_page.py:325
 msgid "Last refresh app list time: "
-msgstr "前次重新整理應用程式清單時間："
+msgstr "上次重新整理應用程式清單時間："
 
 #: ../ui/upgrade_page.py:335
 msgid "The source mirror: "
@@ -215,7 +216,7 @@ msgstr "無法安裝升級套件"
 
 #: ../ui/upgrade_page.py:411
 msgid "This may be because your local dependencies are corrupted."
-msgstr "出現該情況的原因可能是本機依賴關係已被破壞。"
+msgstr "出現該情況的原因可能是本機相依性已被破壞。"
 
 #: ../ui/upgrade_page.py:430
 msgid "Warning"
@@ -226,16 +227,16 @@ msgid ""
 "Crucial components will be uninstalled. This may be because your local "
 "dependencies are corrupted, or incorrect dependencies on server."
 msgstr ""
-"本次升級將要解除安裝重要的系統組件，出現這種情況的原因可能是本機依賴關係已破"
-"壞，或者伺服器端套件依賴不正確。"
+"本次升級將要解除安裝重要的系統組件，出現這種情況的原因可能是本機相依性已破"
+"壞，或者伺服器端套件相依性不正確。"
 
 #: ../ui/upgrade_page.py:471
 msgid "If the problem persists, you may wish to "
-msgstr "請根據建議重試，如果繼續看到本提示，您可以"
+msgstr "請根據建議重試，如果繼續看到本提示訊息，您可以"
 
 #: ../ui/upgrade_page.py:472 ../ui/upgrade_page.py:498
 msgid "Send Error Report"
-msgstr "提交問題報告"
+msgstr "送出問題報告"
 
 #: ../ui/upgrade_page.py:473
 msgid "."
@@ -243,15 +244,15 @@ msgstr "。"
 
 #: ../ui/upgrade_page.py:486
 msgid "Uploading error log"
-msgstr "正在上傳錯誤日志"
+msgstr "正在上傳錯誤日誌"
 
 #: ../ui/upgrade_page.py:491
 msgid "The error was successfully reported and will be soon handled."
-msgstr "錯誤已成功報告，我們將盡快處理。"
+msgstr "已成功回報錯誤，我們將盡快處理。"
 
 #: ../ui/upgrade_page.py:497
 msgid "Failed to send the error report. You may wish to try again. "
-msgstr "錯誤報告失敗。您可能希望再次嘗試。"
+msgstr "回報錯誤失敗。您可以稍後再試。"
 
 #: ../ui/upgrade_page.py:659
 #, python-format
@@ -260,11 +261,11 @@ msgstr "已經選擇 %s 個更新，將下載 %s。"
 
 #: ../ui/upgrade_page.py:1073
 msgid "Analyzing dependencies..."
-msgstr "正在分析依賴關係..."
+msgstr "正在分析相依性..."
 
 #: ../ui/upgrade_page.py:1076
 msgid "Finished analyzing dependencies."
-msgstr "依賴關係分析結束。"
+msgstr "相依性分析結束。"
 
 #: ../ui/upgrade_page.py:1079
 msgid "Download has started..."
@@ -285,7 +286,7 @@ msgstr "下載停止。"
 
 #: ../ui/upgrade_page.py:1102
 msgid "Failed to analyze dependencies."
-msgstr "無法分析依賴關係。"
+msgstr "無法分析相依性。"
 
 #: ../ui/upgrade_page.py:1106
 msgid "Installing updates"
@@ -339,7 +340,7 @@ msgstr "昨天"
 
 #: ../ui/widgets.py:295 ../ui/widgets.py:369
 msgid "Click to refresh"
-msgstr "點擊此處即可重新整理"
+msgstr "點選此處即可重新整理"
 
 #: ../ui/widgets.py:462
 msgid "OK"
@@ -367,7 +368,7 @@ msgid ""
 "good applications. \n"
 msgstr ""
 "深度軟體中心是Linux平台通用的軟體管理中心，精選了2600多款優秀軟體，擁有軟體安"
-"裝與移除、套件倉庫、熱門軟體推荐等多項功能。支援單鍵快速安裝軟體、多線程下載"
+"裝與移除、套件倉庫、熱門軟體推薦等多項功能。支援一鍵快速安裝軟體、多執行緒下載"
 "及套件快取清理。提供專題介紹，分享好軟體。\n"
 "\n"
 "深度軟體中心是一款遵循GNU GPLv3（GNU通用公共授權條款）的自由軟體。\n"
@@ -378,7 +379,7 @@ msgstr "一般"
 
 #: ../ui/preference.py:532
 msgid "Mirrors"
-msgstr "軟件源"
+msgstr "鏡像站"
 
 #: ../ui/preference.py:533
 msgid "About"
@@ -396,7 +397,7 @@ msgstr "選擇最佳鏡像"
 msgid ""
 "Please wait. The process will take 30 seconds or more depending on your "
 "network connection"
-msgstr "請稍等。該過程根據網路連線狀況不同可能會持續 30 秒或更長時間"
+msgstr "請稍等。該過程根據網路連線狀況不同可能會持續 30 秒或更長的時間"
 
 #: ../ui/preference.py:642
 msgid ""
@@ -565,11 +566,11 @@ msgstr "多媒體"
 
 #: ../ui/category_info.py:36
 msgid "Audiovideo"
-msgstr "音訊視訊"
+msgstr "影音"
 
 #: ../ui/category_info.py:37
 msgid "Audiovideo editing"
-msgstr "聲像編輯"
+msgstr "影音編輯"
 
 #: ../ui/category_info.py:38
 msgid "Disc burner"
@@ -581,7 +582,7 @@ msgstr "MIDI"
 
 #: ../ui/category_info.py:40
 msgid "Mixer"
-msgstr "混頻器"
+msgstr "混音器"
 
 #: ../ui/category_info.py:41
 msgid "Player"
@@ -693,7 +694,7 @@ msgstr "掃描列印"
 
 #: ../ui/category_info.py:68
 msgid "Industry"
-msgstr "行業軟體"
+msgstr "工業軟體"
 
 #: ../ui/category_info.py:69
 msgid "Engineering"
@@ -831,16 +832,16 @@ msgstr "%s：搜尋到 %s 款應用程式"
 #: ../ui/software_center.py:129
 #, python-format
 msgid "%s haven't any desktop file"
-msgstr "%s 沒有桌面啟動文件"
+msgstr "%s 沒有桌面啟動檔案"
 
 #: ../ui/software_center.py:137
 #, python-format
 msgid "%s: request for starting applications sent"
-msgstr "%s：已經發送應用程式啟動請求"
+msgstr "%s：已經送出應用程式啟動請求"
 
 #: ../ui/software_center.py:198
 msgid "Sending comment..."
-msgstr "正在發送評分..."
+msgstr "正在送出評分..."
 
 #: ../ui/software_center.py:202
 msgid "You have already sent a comment ;)"
@@ -901,17 +902,17 @@ msgstr "重試"
 #, python-format
 msgid ""
 "Problem occurred when analyzing dependencies for %s. Installation aborted"
-msgstr "分析 %s 依賴關係時發生問題。安裝停止"
+msgstr "分析 %s 相依性時發生問題。停止安裝"
 
 #: ../ui/software_center.py:469
 #, python-format
 msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted"
-msgstr "分析 %s 依賴關係時發生問題。升級停止"
+msgstr "分析 %s 相依性時發生問題。停止升級"
 
 #: ../ui/software_center.py:474
 #, python-format
 msgid "The requested package \"%s\" was not found in the package list."
-msgstr "請求的套件 \"%s\" 無法在應用程式清單中找到"
+msgstr "要求的套件 \"%s\" 無法在應用程式清單中找到"
 
 #: ../ui/software_center.py:475
 msgid "Refresh the package list and try again."
@@ -939,7 +940,7 @@ msgstr "清理套件快取"
 
 #: ../ui/software_center.py:816
 msgid "View new features"
-msgstr "檢視新特點"
+msgstr "查看新特色"
 
 #: ../ui/software_center.py:817
 msgid "Preferences"
@@ -956,4 +957,4 @@ msgstr "恭喜您清理了%s個套件快取，為您節省了%s的硬碟空間�
 
 #: ../ui/software_center.py:1136
 msgid "Your system is clean."
-msgstr "您的套件快取已經清理乾淨啦﹗毋需要再次清理。"
+msgstr "您的套件快取已經清理乾淨啦﹗不需要再次清理。"
