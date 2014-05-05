@@ -602,11 +602,11 @@ msgstr "調諧器"
 
 #: ../ui/category_info.py:45
 msgid "Games"
-msgstr "游戲娛樂"
+msgstr "遊戲娛樂"
 
 #: ../ui/category_info.py:46
 msgid "Action games"
-msgstr "動作游戲"
+msgstr "動作遊戲"
 
 #: ../ui/category_info.py:47
 msgid "Advernture games"
@@ -614,15 +614,15 @@ msgstr "冒險遊戲"
 
 #: ../ui/category_info.py:48
 msgid "Arcade games"
-msgstr "街機游戲"
+msgstr "街機遊戲"
 
 #: ../ui/category_info.py:49
 msgid "Board games"
-msgstr "棋盤游戲"
+msgstr "棋盤遊戲"
 
 #: ../ui/category_info.py:50
 msgid "Card games"
-msgstr "紙牌游戲"
+msgstr "紙牌遊戲"
 
 #: ../ui/category_info.py:51
 msgid "Emulator"
@@ -630,27 +630,27 @@ msgstr "模擬器"
 
 #: ../ui/category_info.py:52
 msgid "Kids games"
-msgstr "兒童游戲"
+msgstr "兒童遊戲"
 
 #: ../ui/category_info.py:53
 msgid "Logic games"
-msgstr "邏輯游戲"
+msgstr "邏輯遊戲"
 
 #: ../ui/category_info.py:54
 msgid "Puzzle games"
-msgstr "益智游戲"
+msgstr "益智遊戲"
 
 #: ../ui/category_info.py:55
 msgid "Role-playing games"
-msgstr "角色扮演游戲"
+msgstr "角色扮演遊戲"
 
 #: ../ui/category_info.py:56
 msgid "Sports games"
-msgstr "體育游戲"
+msgstr "體育遊戲"
 
 #: ../ui/category_info.py:57
 msgid "Strategy games"
-msgstr "策略游戲"
+msgstr "策略遊戲"
 
 #: ../ui/category_info.py:58
 msgid "Graphics"
