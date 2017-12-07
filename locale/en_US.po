@@ -117,7 +117,7 @@ msgid "Action games"
 msgstr ""
 
 #: ../ui/category_info.py:47
-msgid "Advernture games"
+msgid "Adventure games"
 msgstr ""
 
 #: ../ui/category_info.py:48
@@ -129,7 +129,7 @@ msgid "Archiving"
 msgstr ""
 
 #: ../ui/category_info.py:36
-msgid "Audiovideo"
+msgid "Audio/Video"
 msgstr ""
 
 #: ../ui/category_info.py:49
@@ -192,12 +192,11 @@ msgstr ""
 
 #: ../ui/preference.py:452
 msgid ""
-"Deepin Store is a commonly used software center on Linux. We selected more "
-"than 2,600 excellent applications with many functions of installation and "
-"uninstalling, software repository and popular recommendations, which "
-"supports 1-click quick installation, multi-threaded download and clearing of "
-"cached packages. It provides topics for software introduction and shares "
-"good applications.\n"
+"Deepin Store is a commonly used software center on Linux. We provide more "
+"than 2,600 excellent applications with many functions, including installation and "
+"uninstallation, recommendations, 1-click quick installation, multi-threaded download,"
+"and clearing of cached packages. Descriptions are provided for each application to provide"
+"insight on the functionality.\n"
 "\n"
 "Deepin Store is a free software licensed under GNU GPLv3."
 msgstr ""
@@ -232,19 +231,19 @@ msgid "Download directory: "
 msgstr ""
 
 #: ../ui/install_page.py:762
-msgid "Download failed"
+msgid "Downloaded unsuccessfully"
 msgstr ""
 
 #: ../ui/upgrade_page.py:1113
-msgid "Download finished."
+msgid "Downloaded successfully"
 msgstr ""
 
 #: ../ui/upgrade_page.py:1097
-msgid "Download has started"
+msgid "Downloading..."
 msgstr ""
 
 #: ../ui/home_page.py:756
-msgid "Download rank"
+msgid "Download priority"
 msgstr ""
 
 #: ../ui/preference.py:494
@@ -256,7 +255,7 @@ msgid "Download stopped."
 msgstr ""
 
 #: ../ui/install_page.py:662 ../ui/install_page.py:673
-msgid "Download was interrupted"
+msgid "Download interrupted"
 msgstr ""
 
 #: ../ui/detail_page.py:355
@@ -309,7 +308,7 @@ msgid "Failed to refresh package lists."
 msgstr ""
 
 #: ../ui/upgrade_page.py:509
-msgid "Failed to send the error report. You could try again."
+msgid "Failed to send error report. Please try again."
 msgstr ""
 
 #: ../ui/category_info.py:97
@@ -398,7 +397,7 @@ msgid "Installation completed"
 msgstr ""
 
 #: ../ui/install_page.py:686
-msgid "Installation was interrupted"
+msgid "Installation unsuccessful"
 msgstr ""
 
 #: ../ui/install_page.py:513 ../ui/download_rank_page.py:371
@@ -408,11 +407,11 @@ msgid "Installed"
 msgstr ""
 
 #: ../ui/install_page.py:797 ../ui/install_page.py:804
-msgid "Installing"
+msgid "Installing..."
 msgstr ""
 
 #: ../ui/upgrade_page.py:1124
-msgid "Installing upgrade packages"
+msgid "Installing upgrade packages..."
 msgstr ""
 
 #: ../ui/category_info.py:28
@@ -441,11 +440,11 @@ msgstr ""
 
 #: ../ui/upgrade_page.py:78 ../ui/upgrade_page.py:107
 #: ../ui/upgrade_page.py:340
-msgid "Last system upgraded time: "
+msgid "Last system upgrade time: "
 msgstr ""
 
 #: ../ui/upgrade_page.py:335
-msgid "Last time of refreshed package lists: "
+msgid "Last time package lists were refreshed: "
 msgstr ""
 
 #: ../ui/detail_page.py:239 ../ui/detail_page.py:491
@@ -544,7 +543,7 @@ msgid "Open download directory"
 msgstr ""
 
 #: ../ui/software_center.py:446
-msgid "Package lists refreshed completely."
+msgid "Package lists refreshed."
 msgstr ""
 
 #: ../ui/category_info.py:89
@@ -561,7 +560,7 @@ msgstr ""
 
 #: ../ui/inhibit.py:54
 msgid ""
-"Please wait a moment while system upgrade is being performed... Do not turn "
+"Please wait a moment while system is upgrading... Do not turn "
 "off your computer."
 msgstr ""
 
@@ -588,12 +587,12 @@ msgstr ""
 #: ../ui/software_center.py:469
 #, python-format
 msgid ""
-"Problem occurred when analyzing dependencies for %s. Installation aborted."
+"Error occurred when analyzing dependencies for %s. Installation aborted."
 msgstr ""
 
 #: ../ui/software_center.py:472
 #, python-format
-msgid "Problem occurred when analyzing dependencies for %s. Upgrade aborted."
+msgid "Error occurred when analyzing dependencies for %s. Upgrade aborted."
 msgstr ""
 
 #: ../ui/category_info.py:65
@@ -633,7 +632,7 @@ msgid "Refresh package lists"
 msgstr ""
 
 #: ../ui/software_center.py:478
-msgid "Refresh package lists again and try again."
+msgid "Refresh package lists and try again."
 msgstr ""
 
 #: ../ui/category_info.py:76
@@ -701,7 +700,7 @@ msgid "Settings"
 msgstr ""
 
 #: ../ui/upgrade_page.py:289
-msgid "Shut down the computer after upgraded"
+msgid "Please restart your computer after upgrade"
 msgstr ""
 
 #: ../ui/detail_page.py:470
@@ -718,7 +717,7 @@ msgid "Software development"
 msgstr ""
 
 #: ../ui/preference.py:751
-msgid "Speed testing will finish only after one minute, please wait."
+msgid "Speed testing concludes after one minute, please wait."
 msgstr ""
 
 #: ../ui/category_info.py:56
@@ -752,7 +751,7 @@ msgstr ""
 
 #: ../ui/preference.py:776
 #, python-format
-msgid "Test is completed, the fastest mirror source is \"%s\", switch now?"
+msgid "Test completed, the fastest mirror source is \"%s\", switch now?"
 msgstr ""
 
 #: ../ui/category_info.py:100
@@ -760,7 +759,7 @@ msgid "Text editor"
 msgstr ""
 
 #: ../ui/upgrade_page.py:503
-msgid "The error was successfully reported and will be handled soon."
+msgid "Error successfully reported."
 msgstr ""
 
 #: ../ui/software_center.py:477
@@ -773,26 +772,26 @@ msgid "The requested package does not exist on server."
 msgstr ""
 
 #: ../ui/upgrade_page.py:308
-msgid "The system is not Deepin, this function is invalid."
+msgid "This function is invalid, please run on Deepin."
 msgstr ""
 
 #: ../ui/upgrade_page.py:442
 msgid ""
-"The upgrade requires to uninstall crucial components due to corrupted local "
+"The upgrade will uninstall crucial components due to corrupted local "
 "dependencies or incorrect package dependencies on server."
 msgstr ""
 
 #: ../ui/dsc-daemon.py:284
 #, python-format
 msgid ""
-"There are %s packages needed to upgrade in your system, please use Deepin "
+"There are %s packages that need to be upgraded in your system, please use Deepin "
 "Store to upgrade."
 msgstr ""
 
 #: ../ui/dsc-daemon.py:288
 #, python-format
 msgid ""
-"There is %s package needed to upgrade in your system, please use Deepin "
+"There is %s package that needs to be upgraded in your system, please use Deepin "
 "Store to upgrade."
 msgstr ""
 
@@ -801,11 +800,11 @@ msgid "This function is invalid without Deepin System Settings installed."
 msgstr ""
 
 #: ../ui/upgrade_page.py:663
-msgid "This problem occurs due to corrupted local apt dependence relationship."
+msgid "Error: corrupted local apt dependence relationship."
 msgstr ""
 
 #: ../ui/upgrade_page.py:421
-msgid "This problem occurs due to corrupted local apt dependency relationship."
+msgid "TError: corrupted local apt dependency relationship."
 msgstr ""
 
 #: ../ui/preference.py:575
@@ -817,7 +816,7 @@ msgid "Top 25 monthly"
 msgstr ""
 
 #: ../ui/download_rank_page.py:61
-msgid "Top 25 totally"
+msgid "Top 25 total"
 msgstr ""
 
 #: ../ui/download_rank_page.py:61
@@ -842,7 +841,7 @@ msgstr ""
 
 #: ../ui/software_center.py:385
 #, python-format
-msgid "Uninstall %s Successfully."
+msgid "Uninstalled %s Successfully."
 msgstr ""
 
 #: ../ui/uninstall_page.py:619
@@ -908,7 +907,7 @@ msgid "Version: %s"
 msgstr ""
 
 #: ../ui/software_center.py:819
-msgid "View new features"
+msgid "New features"
 msgstr ""
 
 #: ../ui/category_info.py:64
@@ -961,7 +960,7 @@ msgid "Yesterday"
 msgstr ""
 
 #: ../ui/software_center.py:198
-msgid "You have already scored.  ;)"
+msgid "You have already rated.  ;)"
 msgstr ""
 
 #: ../ui/software_center.py:1123
